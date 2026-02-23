@@ -144,8 +144,9 @@ button, input, textarea {
 
 .logo-container {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   gap: 16px;
+  flex-shrink: 0;
 }
 
 .logo-link {
@@ -163,6 +164,7 @@ button, input, textarea {
 
 .logo {
   height: 56px;
+  width: auto;
   object-fit: contain;
 }
 
@@ -858,9 +860,8 @@ textarea.form-field {
   }
 
   .logo-container {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 4px;
+    align-items: baseline;
+    gap: 12px;
   }
 
   .logo {
