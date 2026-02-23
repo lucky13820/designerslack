@@ -57,8 +57,13 @@ body {
   padding: 0;
   font-family: Cerabasic, Verdana, sans-serif;
   color: var(--black);
-  background-color: #fffdf9;
+  background-color: var(--blanched-almond);
   line-height: 1.5;
+  cursor: url('../images/cursor-white.svg'), auto;
+}
+
+a, button {
+  cursor: url('../images/hand-white.svg'), pointer !important;
 }
 
 ::selection {
@@ -75,6 +80,7 @@ body {
 ::-webkit-scrollbar-thumb {
   background-color: var(--sandy-brown);
   border-radius: 6px;
+  border: 3px solid var(--blanched-almond);
 }
 
 a {
@@ -121,12 +127,19 @@ button, input, textarea {
 
 /* ---- Header / Nav ---- */
 .container.header {
-  display: grid;
-  grid-template-columns: 1fr max-content max-content max-content;
+  display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 24px;
   padding-top: 96px;
-  padding-bottom: 56px;
+  padding-bottom: 48px;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-left: auto;
 }
 
 .logo-container {
@@ -140,7 +153,7 @@ button, input, textarea {
 }
 
 .logo {
-  height: 60px;
+  height: 56px;
   object-fit: contain;
 }
 
@@ -148,10 +161,6 @@ button, input, textarea {
   font-size: 16px;
   font-weight: 700;
   color: var(--black);
-}
-
-.nav-right {
-  display: contents;
 }
 
 a.text-lg.header {
@@ -170,12 +179,12 @@ a.text-lg.header:hover {
 
 .button {
   display: inline-block;
-  padding: 10px 24px;
+  padding: 8px 16px;
   font-size: 16px;
   font-weight: 700;
   color: var(--black);
   border: 3px solid var(--dim-grey);
-  border-radius: 2px;
+  border-radius: 4px;
   background: var(--white);
   cursor: pointer;
   transition: background-color 0.2s;
@@ -347,7 +356,7 @@ a.text-lg.header:hover {
 /* ---- Community Grid ---- */
 .community-list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(2, 1fr);
   gap: 32px;
 }
 
@@ -435,13 +444,13 @@ a.text-lg.header:hover {
 
 /* Badge */
 .badge {
-  display: inline-block;
+  display: table;
   font-size: 14px;
   font-weight: 400;
   text-transform: capitalize;
   padding: 2px 8px;
   border-radius: 2px;
-  margin-top: 4px;
+  margin-top: 16px;
   margin-bottom: 8px;
 }
 
@@ -644,7 +653,8 @@ a.text-lg.header:hover {
   margin-bottom: 48px;
 }
 
-.share-container h2 {
+.share-container h2,
+.share-container h1 {
   font-size: 20px;
   font-weight: 700;
   margin-bottom: 24px;
@@ -749,22 +759,20 @@ a.text-lg.header:hover {
 /* ---- Responsive: Tablet (991px) ---- */
 @media screen and (max-width: 991px) {
   .container.header {
-    grid-template-columns: 1fr;
+    flex-direction: column;
     gap: 16px;
     padding-top: 48px;
     padding-bottom: 32px;
     text-align: center;
   }
 
-  .logo-container {
+  .nav-right {
+    margin-left: 0;
     justify-content: center;
   }
 
-  .nav-right {
-    display: flex;
+  .logo-container {
     justify-content: center;
-    gap: 16px;
-    align-items: center;
   }
 
   .filter-container {
@@ -779,7 +787,7 @@ a.text-lg.header:hover {
   }
 
   .community-list {
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(2, 1fr);
     gap: 24px;
   }
 }
@@ -789,6 +797,13 @@ a.text-lg.header:hover {
   .container.header {
     padding-top: 32px;
     padding-bottom: 24px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .nav-right {
+    margin-left: 0;
+    justify-content: center;
   }
 
   .logo {
