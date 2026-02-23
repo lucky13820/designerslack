@@ -356,7 +356,7 @@ a.text-lg.header:hover {
 /* ---- Community Grid ---- */
 .community-list {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 32px;
 }
 
@@ -406,26 +406,33 @@ a.text-lg.header:hover {
   margin-bottom: 8px;
 }
 
+.title-link {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
 .title-link--image {
-  width: 100%;
-  max-height: 200px;
+  width: 56px;
+  height: 56px;
   object-fit: contain;
-  margin-bottom: 12px;
-  border-radius: 2px;
+  border-radius: 4px;
+  flex-shrink: 0;
 }
 
 .title-link--initial {
-  font-size: 48px;
+  font-size: 24px;
   font-weight: 900;
   color: var(--white);
   background-color: var(--sandy-brown);
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
-  height: 200px;
-  border-radius: 2px;
-  margin-bottom: 12px;
+  width: 56px;
+  height: 56px;
+  border-radius: 4px;
+  flex-shrink: 0;
 }
 
 .text-2xl.title {
@@ -568,6 +575,15 @@ a.text-lg.header:hover {
 
 .pagination-btn:disabled:hover {
   background-color: var(--white);
+}
+
+/* ---- Hidden Section (toggle) ---- */
+.hidden-section {
+  display: none;
+}
+
+.hidden-section.visible {
+  display: block;
 }
 
 /* ---- "Add a Community" Section ---- */
@@ -789,6 +805,11 @@ a.text-lg.header:hover {
   .community-list {
     grid-template-columns: repeat(2, 1fr);
     gap: 24px;
+  }
+
+  .nav-right {
+    margin-left: 0;
+    justify-content: center;
   }
 }
 

@@ -75,7 +75,7 @@
       badgeStyle = 'style="color:' + c.badgeTextColor + ';background-color:' + c.badgeBgColor + '"';
     }
 
-    // Logo or initial
+    // Logo or initial (small, beside title)
     let logoHtml;
     if (c.logoUrl) {
       logoHtml = '<img alt="' + escapeHtml(c.name) + '" src="' + escapeHtml(c.logoUrl) + '" loading="lazy" class="title-link--image">';
@@ -360,10 +360,14 @@
       });
     });
 
-    // Smooth scroll for "Add a community" button
-    document.querySelector('.nav-add-btn').addEventListener('click', function (e) {
+    // Show/hide "Add a community" section
+    document.getElementById('show-add-form').addEventListener('click', function (e) {
       e.preventDefault();
-      document.getElementById('add-community').scrollIntoView({ behavior: 'smooth' });
+      var section = document.getElementById('add-community');
+      section.classList.toggle('visible');
+      if (section.classList.contains('visible')) {
+        section.scrollIntoView({ behavior: 'smooth' });
+      }
     });
   }
 
