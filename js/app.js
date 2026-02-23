@@ -351,6 +351,13 @@
         if (res.ok) {
           addForm.style.display = 'none';
           formSuccess.classList.add('visible');
+          setTimeout(function () {
+            document.getElementById('add-community-modal').classList.remove('visible');
+            document.body.style.overflow = '';
+            addForm.style.display = '';
+            addForm.reset();
+            formSuccess.classList.remove('visible');
+          }, 3000);
         } else {
           alert('Something went wrong. Please try again.');
         }
@@ -360,13 +367,30 @@
       });
     });
 
-    // Show/hide "Add a community" section
+    // Modal open/close
+    var modal = document.getElementById('add-community-modal');
     document.getElementById('show-add-form').addEventListener('click', function (e) {
       e.preventDefault();
-      var section = document.getElementById('add-community');
-      section.classList.toggle('visible');
-      if (section.classList.contains('visible')) {
-        section.scrollIntoView({ behavior: 'smooth' });
+      modal.classList.add('visible');
+      document.body.style.overflow = 'hidden';
+    });
+
+    document.getElementById('modal-close').addEventListener('click', function () {
+      modal.classList.remove('visible');
+      document.body.style.overflow = '';
+    });
+
+    modal.addEventListener('click', function (e) {
+      if (e.target === modal) {
+        modal.classList.remove('visible');
+        document.body.style.overflow = '';
+      }
+    });
+
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && modal.classList.contains('visible')) {
+        modal.classList.remove('visible');
+        document.body.style.overflow = '';
       }
     });
   }
