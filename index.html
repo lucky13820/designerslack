@@ -146,7 +146,7 @@
     <h2>Add a community</h2>
     <p>Know a Slack community for designers that's not listed? Submit it below and we'll review it.</p>
 
-    <form name="add-community" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="add-form" id="add-form">
+    <form name="add-community" method="POST" data-netlify="true" data-netlify-recaptcha="true" netlify-honeypot="bot-field" class="add-form" id="add-form">
       <input type="hidden" name="form-name" value="add-community">
       <p class="bot-field">
         <label>Don't fill this out: <input name="bot-field"></label>
@@ -163,6 +163,7 @@
         <label for="community-url">Website URL *</label>
         <input type="url" id="community-url" name="community-url" required placeholder="https://...">
       </div>
+      <div data-netlify-recaptcha="true"></div>
       <button type="submit" class="button">Submit</button>
     </form>
     <div class="form-success" id="form-success">
