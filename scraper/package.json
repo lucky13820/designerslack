@@ -1,0 +1,14 @@
+{
+  "name": "designerslack-scraper",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Scraper for designerslack.community data",
+  "scripts": {
+    "scrape": "node scrape.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "node-fetch": "^2.7.0",
+    "xml2js": "^0.6.2"
+  }
+}

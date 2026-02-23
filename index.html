@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Designer Slack Communities — A collection of Slack communities for designers</title>
+  <meta name="description" content="A collection of Slack communities for designers around the world. Find your community, connect with designers, and grow your network.">
+  <meta name="theme-color" content="#F6AD54">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Designer Slack Communities">
+  <meta property="og:description" content="A collection of Slack communities for designers around the world.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://designerslack.community">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Designer Slack Communities">
+  <meta name="twitter:description" content="A collection of Slack communities for designers around the world.">
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Plausible Analytics -->
+  <script defer data-domain="designerslack.community" src="https://plausible.io/js/script.js"></script>
+</head>
+<body>
+
+  <!-- Header / Nav -->
+  <div class="container header">
+    <div class="logo-container">
+      <a href="/">
+        <img src="images/logo.svg" alt="Designer Slack Communities logo" class="logo" height="56">
+      </a>
+      <p class="text-base header" id="community-count"></p>
+    </div>
+    <a href="#add-community" class="button nav-add-btn">Add a community</a>
+    <a href="https://designerslack.community/community/rss.xml" target="_blank" rel="noopener" class="rss">
+      <img src="images/rss.png" width="32" alt="RSS feed">
+    </a>
+  </div>
+
+  <h1 class="hidden">Designer Slack Communities</h1>
+  <h2 class="hidden">A collection of Slack communities for designers around the world</h2>
+
+  <!-- Filters -->
+  <div class="container">
+    <div class="filter-container">
+      <!-- Search -->
+      <div class="search-container">
+        <form class="search-form" onsubmit="return false;">
+          <input
+            type="text"
+            id="search-input"
+            class="search-input"
+            placeholder="Search for names, countries, cities, descriptions..."
+            maxlength="256"
+            autocomplete="off"
+          >
+          <a href="#" id="search-clear" class="search-clear">
+            <svg class="search-clear-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="18" y1="6" x2="6" y2="18"></line>
+              <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+            <span>Clear</span>
+          </a>
+        </form>
+      </div>
+
+      <!-- Location Filter -->
+      <div class="dropdown" id="location-dropdown">
+        <div class="filter-button" id="location-toggle">
+          <span>Location</span>
+          <span class="arrow"></span>
+        </div>
+        <nav class="filter-list" id="location-list">
+          <a href="#" class="filter-link active" data-value="">All</a>
+          <a href="#" class="filter-link" data-value="APAC">APAC</a>
+          <a href="#" class="filter-link" data-value="Africa">Africa</a>
+          <a href="#" class="filter-link" data-value="Australia">Australia</a>
+          <a href="#" class="filter-link" data-value="Brazil">Brazil</a>
+          <a href="#" class="filter-link" data-value="Canada">Canada</a>
+          <a href="#" class="filter-link" data-value="Chile">Chile</a>
+          <a href="#" class="filter-link" data-value="Finland">Finland</a>
+          <a href="#" class="filter-link" data-value="France">France</a>
+          <a href="#" class="filter-link" data-value="Germany">Germany</a>
+          <a href="#" class="filter-link" data-value="Global">Global</a>
+          <a href="#" class="filter-link" data-value="India">India</a>
+          <a href="#" class="filter-link" data-value="Italy">Italy</a>
+          <a href="#" class="filter-link" data-value="Japan">Japan</a>
+          <a href="#" class="filter-link" data-value="Korea">Korea</a>
+          <a href="#" class="filter-link" data-value="Midwest">Midwest</a>
+          <a href="#" class="filter-link" data-value="Portugal">Portugal</a>
+          <a href="#" class="filter-link" data-value="Russia">Russia</a>
+          <a href="#" class="filter-link" data-value="Spain">Spain</a>
+          <a href="#" class="filter-link" data-value="Sweden">Sweden</a>
+          <a href="#" class="filter-link" data-value="Turkey">Turkey</a>
+          <a href="#" class="filter-link" data-value="UK">UK</a>
+          <a href="#" class="filter-link" data-value="USA">USA</a>
+        </nav>
+      </div>
+
+      <!-- Group Type Filter -->
+      <div class="dropdown" id="type-dropdown">
+        <div class="filter-button" id="type-toggle">
+          <span>Group Type</span>
+          <span class="arrow"></span>
+        </div>
+        <nav class="filter-list" id="type-list">
+          <a href="#" class="filter-link active" data-value="">All</a>
+          <a href="#" class="filter-link" data-value="Accessbility">Accessbility</a>
+          <a href="#" class="filter-link" data-value="Animation">Animation</a>
+          <a href="#" class="filter-link" data-value="Content">Content</a>
+          <a href="#" class="filter-link" data-value="Design Leaders">Design Leaders</a>
+          <a href="#" class="filter-link" data-value="Design Ops">Design Ops</a>
+          <a href="#" class="filter-link" data-value="Design System">Design System</a>
+          <a href="#" class="filter-link" data-value="General">General</a>
+          <a href="#" class="filter-link" data-value="Illustration">Illustration</a>
+          <a href="#" class="filter-link" data-value="Minority Group">Minority Group</a>
+          <a href="#" class="filter-link" data-value="Product">Product</a>
+          <a href="#" class="filter-link" data-value="Remote Work">Remote Work</a>
+          <a href="#" class="filter-link" data-value="Service Design">Service Design</a>
+          <a href="#" class="filter-link" data-value="Software">Software</a>
+          <a href="#" class="filter-link" data-value="Technology">Technology</a>
+          <a href="#" class="filter-link" data-value="Typography">Typography</a>
+          <a href="#" class="filter-link" data-value="UX/UI">UX/UI</a>
+          <a href="#" class="filter-link" data-value="User Research">User Research</a>
+        </nav>
+      </div>
+    </div>
+
+    <!-- Active Filters -->
+    <div class="active-filters" id="active-filters"></div>
+  </div>
+
+  <!-- Community Grid -->
+  <div class="container">
+    <div class="community-list" id="community-list"></div>
+    <div class="no-results" id="no-results">No communities found matching your filters.</div>
+    <div class="pagination-container" id="pagination"></div>
+  </div>
+
+  <!-- Add a Community -->
+  <div class="container add-community-section" id="add-community">
+    <h2>Add a community</h2>
+    <p>Know a Slack community for designers that's not listed? Submit it below and we'll review it.</p>
+
+    <form name="add-community" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="add-form" id="add-form">
+      <input type="hidden" name="form-name" value="add-community">
+      <p class="bot-field">
+        <label>Don't fill this out: <input name="bot-field"></label>
+      </p>
+      <div>
+        <label for="community-name">Community Name *</label>
+        <input type="text" id="community-name" name="community-name" required placeholder="e.g. Design Buddies">
+      </div>
+      <div>
+        <label for="community-description">Description</label>
+        <textarea id="community-description" name="community-description" placeholder="Tell us about this community..."></textarea>
+      </div>
+      <div>
+        <label for="community-url">Website URL *</label>
+        <input type="url" id="community-url" name="community-url" required placeholder="https://...">
+      </div>
+      <button type="submit" class="button">Submit</button>
+    </form>
+    <div class="form-success" id="form-success">
+      Thanks! Your submission has been received. We'll review it soon.
+    </div>
+  </div>
+
+  <!-- Share Section -->
+  <div class="container">
+    <div class="share-container">
+      <h2>If you find this website helpful, please share it with your friends.</h2>
+      <div class="button-container">
+        <a class="share-btn linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fdesignerslack.community" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          Share
+        </a>
+        <a class="share-btn facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdesignerslack.community" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+          Share
+        </a>
+        <a class="share-btn twitter" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fdesignerslack.community&text=Check%20out%20this%20collection%20of%20Slack%20communities%20for%20designers" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg>
+          Tweet
+        </a>
+        <a class="share-btn pinterest" href="https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fdesignerslack.community&description=Designer%20Slack%20Communities" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24"><path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.162-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738a.36.36 0 01.083.345l-.333 1.36c-.053.22-.174.267-.402.161-1.499-.698-2.436-2.889-2.436-4.649 0-3.785 2.75-7.262 7.929-7.262 4.163 0 7.398 2.967 7.398 6.931 0 4.136-2.607 7.464-6.227 7.464-1.216 0-2.359-.631-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24 12.017 24c6.624 0 11.99-5.367 11.99-11.988C24.007 5.367 18.641 0 12.017 0z"/></svg>
+          Save
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="container footer">
+    <p class="text-base gray footnote">&copy;2023 <a href="https://ryanyao.design" target="_blank" rel="noopener" class="link">Made by Ryan Yao</a></p>
+    <p class="text-base gray footnote">I collect totally anonymous basic analytics using Plausible. View live analytics at <a href="https://plausible.io/designerslack.community" target="_blank" rel="noopener" class="link">https://plausible.io/designerslack.community</a></p>
+    <p class="text-base gray footnote">All thumbnails credits belong to their respective owners &nbsp;|&nbsp; CMD/CTRL + D to bookmark</p>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
