@@ -883,6 +883,10 @@ textarea.form-field {
 
   .nav-right {
     margin-left: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 16px;
   }
 
   .community-list {
