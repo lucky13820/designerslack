@@ -1,14 +1,20 @@
 const TURNSTILE_VERIFY_URL = 'https://challenges.cloudflare.com/turnstile/v0/siteverify';
 
+const CORS_HEADERS = {
+  'Access-Control-Allow-Origin': '*',
+  'Access-Control-Allow-Methods': 'POST, OPTIONS',
+  'Access-Control-Allow-Headers': 'Content-Type',
+  'Content-Type': 'application/json',
+};
+
 export default async function handler(req) {
+  if (req.method === 'OPTIONS') {
+    return new Response('', { status: 204, headers: CORS_HEADERS });
+  }
+
   if (req.method !== 'POST') {
     return new Response('Method not allowed', { status: 405 });
   }
-
-  const headers = {
-    'Access-Control-Allow-Origin': '*',
-    'Content-Type': 'application/json',
-  };
 
   try {
     const body = await req.json();
@@ -17,7 +23,7 @@ export default async function handler(req) {
     if (!name || !url) {
       return new Response(JSON.stringify({ error: 'Name and URL are required.' }), {
         status: 400,
-        headers,
+        headers: CORS_HEADERS,
       });
     }
 
@@ -27,7 +33,7 @@ export default async function handler(req) {
       console.error('TURNSTILE_SECRET_KEY not set');
       return new Response(JSON.stringify({ error: 'Server configuration error.' }), {
         status: 500,
-        headers,
+        headers: CORS_HEADERS,
       });
     }
 
@@ -43,36 +49,44 @@ export default async function handler(req) {
     const turnstileData = await turnstileRes.json();
 
     if (!turnstileData.success) {
+      console.error('Turnstile verification failed:', JSON.stringify(turnstileData));
       return new Response(JSON.stringify({ error: 'Captcha verification failed.' }), {
         status: 403,
-        headers,
+        headers: CORS_HEADERS,
       });
     }
 
-    // Forward to Netlify Forms so submissions appear in the dashboard
-    const siteUrl = process.env.URL || 'https://www.designerslack.community';
-    const formRes = await fetch(siteUrl, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-      body: new URLSearchParams({
-        'form-name': 'add-community',
-        'community-name': name,
-        'community-description': description || '',
-        'community-url': url,
-      }).toString(),
-    });
+    // Log the verified submission
+    console.log('NEW SUBMISSION:', JSON.stringify({ name, description, url, timestamp: new Date().toISOString() }));
 
-    if (!formRes.ok) {
-      // Netlify Forms not enabled — log submission directly
-      console.log('SUBMISSION (Netlify Forms unavailable):', JSON.stringify({ name, description, url }));
+    // Forward to Netlify Forms (best-effort, don't block success response)
+    try {
+      const formRes = await fetch('https://www.designerslack.community/', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: new URLSearchParams({
+          'form-name': 'add-community',
+          'community-name': name,
+          'community-description': description || '',
+          'community-url': url,
+        }).toString(),
+      });
+
+      if (formRes.ok) {
+        console.log('Forwarded to Netlify Forms successfully');
+      } else {
+        console.warn('Netlify Forms returned', formRes.status);
+      }
+    } catch (formErr) {
+      console.warn('Netlify Forms forwarding failed:', formErr.message);
     }
 
-    return new Response(JSON.stringify({ success: true }), { status: 200, headers });
+    return new Response(JSON.stringify({ success: true }), { status: 200, headers: CORS_HEADERS });
   } catch (err) {
-    console.error('Submit error:', err);
+    console.error('Submit error:', err.message, err.stack);
     return new Response(JSON.stringify({ error: 'Internal server error.' }), {
       status: 500,
-      headers,
+      headers: CORS_HEADERS,
     });
   }
 }
