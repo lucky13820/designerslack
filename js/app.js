@@ -337,15 +337,24 @@
       closeAllDropdowns();
     });
 
-    // Form submission (Netlify Forms)
+    // Form submission via Netlify Function + Cloudflare Turnstile
     addForm.addEventListener('submit', function (e) {
       e.preventDefault();
-      var formData = new FormData(addForm);
+      var turnstileToken = document.querySelector('[name="cf-turnstile-response"]');
+      if (!turnstileToken || !turnstileToken.value) {
+        alert('Please complete the captcha.');
+        return;
+      }
 
-      fetch('/', {
+      fetch('/.netlify/functions/submit-community', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-        body: new URLSearchParams(formData).toString()
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          name: addForm.querySelector('[name="community-name"]').value,
+          description: addForm.querySelector('[name="community-description"]').value,
+          url: addForm.querySelector('[name="community-url"]').value,
+          turnstileToken: turnstileToken.value,
+        })
       })
       .then(function (res) {
         if (res.ok) {
@@ -356,10 +365,13 @@
             document.body.style.overflow = '';
             addForm.style.display = '';
             addForm.reset();
+            if (typeof turnstile !== 'undefined') turnstile.reset();
             formSuccess.classList.remove('visible');
           }, 3000);
         } else {
-          alert('Something went wrong. Please try again.');
+          return res.json().then(function (data) {
+            alert(data.error || 'Something went wrong. Please try again.');
+          });
         }
       })
       .catch(function () {

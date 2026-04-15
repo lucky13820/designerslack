@@ -24,6 +24,9 @@
 
   <link rel="stylesheet" href="css/style.css">
 
+  <!-- Cloudflare Turnstile -->
+  <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+
   <!-- Plausible Analytics -->
   <script defer data-domain="designerslack.community" src="https://plausible.io/js/script.js"></script>
 </head>
@@ -150,11 +153,7 @@
   <div class="modal-overlay" id="add-community-modal">
     <div class="modal-content">
       <img src="images/close.svg" alt="Close" class="modal-close" id="modal-close" width="32">
-      <form name="add-community" method="POST" action="/" data-netlify="true" data-netlify-recaptcha="true" netlify-honeypot="bot-field" class="add-form" id="add-form">
-        <input type="hidden" name="form-name" value="add-community">
-        <p class="bot-field">
-          <label>Don't fill this out: <input name="bot-field"></label>
-        </p>
+      <form name="add-community" method="POST" class="add-form" id="add-form">
         <h2 class="text-2xl form-title">Add a community</h2>
         <label for="community-name" class="text-base">Community Name</label>
         <input type="text" id="community-name" name="community-name" required placeholder="Enter the name of the community" class="form-field">
@@ -163,7 +162,7 @@
         <label for="community-url" class="text-base">Website URL</label>
         <input type="text" id="community-url" name="community-url" required placeholder="Enter the website URL or the invite URL" class="form-field">
         <p class="text-sm form-hint">Please don't submit URL like https://name.slack.com, this link can't be used for inviting people.</p>
-        <div data-netlify-recaptcha="true"></div>
+        <div class="cf-turnstile" data-sitekey="0x4AAAAAAC91QGm1eRXUQ9eo" data-theme="light"></div>
         <button type="submit" class="button form-submit">Submit</button>
       </form>
       <div class="form-success" id="form-success">
@@ -178,6 +177,13 @@
     <p class="text-base gray footnote">I collect totally anonymous basic analytics using Plausible. View live analytics at <a href="https://plausible.io/designerslack.community" target="_blank" rel="noopener" class="link">https://plausible.io/designerslack.community</a></p>
     <p class="text-base gray footnote">All thumbnails credits belong to their respective owners &nbsp;|&nbsp; CMD/CTRL + D to bookmark</p>
   </div>
+
+  <!-- Hidden form for Netlify Forms detection -->
+  <form name="add-community" data-netlify="true" hidden>
+    <input name="community-name">
+    <input name="community-description">
+    <input name="community-url">
+  </form>
 
   <!-- Scripts -->
   <script src="js/data.js"></script>

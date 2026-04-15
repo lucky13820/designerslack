@@ -1,6 +1,7 @@
 [build]
   publish = "."
   command = "echo 'Build complete'"
+  functions = "netlify/functions"
 
 [[headers]]
   for = "/*"
