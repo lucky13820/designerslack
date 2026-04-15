@@ -337,27 +337,41 @@
       closeAllDropdowns();
     });
 
-    // Form submission via Netlify Function + Cloudflare Turnstile
+    // Form submission: verify Turnstile, then submit to Netlify Forms
+    var submitBtn = addForm.querySelector('.form-submit');
     addForm.addEventListener('submit', function (e) {
       e.preventDefault();
-      var turnstileToken = document.querySelector('[name="cf-turnstile-response"]');
-      if (!turnstileToken || !turnstileToken.value) {
+      var turnstileInput = document.querySelector('[name="cf-turnstile-response"]');
+      if (!turnstileInput || !turnstileInput.value) {
         alert('Please complete the captcha.');
         return;
       }
 
-      fetch('/.netlify/functions/submit-community', {
+      submitBtn.classList.add('loading');
+
+      // Step 1: Verify Turnstile token server-side
+      fetch('/.netlify/functions/verify-turnstile', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          name: addForm.querySelector('[name="community-name"]').value,
-          description: addForm.querySelector('[name="community-description"]').value,
-          url: addForm.querySelector('[name="community-url"]').value,
-          turnstileToken: turnstileToken.value,
-        })
+        body: JSON.stringify({ token: turnstileInput.value })
       })
       .then(function (res) {
-        if (res.ok) {
+        if (!res.ok) {
+          return res.json().then(function (data) {
+            throw new Error(data.error || 'Verification failed.');
+          });
+        }
+        // Step 2: Submit to Netlify Forms (per docs: POST to / with URL-encoded body)
+        var formData = new FormData(addForm);
+        formData.set('form-name', 'add-community');
+        return fetch('/', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+          body: new URLSearchParams(formData).toString()
+        });
+      })
+      .then(function (res) {
+        if (res && res.ok) {
           addForm.style.display = 'none';
           formSuccess.classList.add('visible');
           setTimeout(function () {
@@ -368,14 +382,15 @@
             if (typeof turnstile !== 'undefined') turnstile.reset();
             formSuccess.classList.remove('visible');
           }, 3000);
-        } else {
-          return res.json().then(function (data) {
-            alert(data.error || 'Something went wrong. Please try again.');
-          });
+        } else if (res) {
+          throw new Error('Form submission failed.');
         }
       })
-      .catch(function () {
-        alert('Something went wrong. Please try again.');
+      .catch(function (err) {
+        alert(err.message || 'Something went wrong. Please try again.');
+      })
+      .finally(function () {
+        submitBtn.classList.remove('loading');
       });
     });
 

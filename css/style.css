@@ -682,6 +682,30 @@ textarea.form-field {
 
 .form-submit {
   margin-top: 8px;
+  position: relative;
+}
+
+.form-submit.loading {
+  color: transparent;
+  pointer-events: none;
+}
+
+.form-submit.loading::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 20px;
+  height: 20px;
+  margin: -10px 0 0 -10px;
+  border: 3px solid var(--dim-grey);
+  border-top-color: var(--sandy-brown);
+  border-radius: 50%;
+  animation: spin 0.6s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
 }
 
 .form-success {
