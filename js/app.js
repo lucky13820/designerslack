@@ -8,7 +8,8 @@
 
   // ---- Config ----
   const PER_PAGE = 30;
-  let currentPage = 1;
+  let visibleCount = PER_PAGE;
+  let loading = false;
   let filteredData = [];
   let activeLocation = '';
   let activeType = '';
@@ -39,15 +40,13 @@
     filteredData = [...COMMUNITIES_DATA];
     updateCount(COMMUNITIES_DATA.length);
     renderCards();
-    renderPagination();
     bindEvents();
+    bindInfiniteScroll();
   }
 
   // ---- Card Rendering ----
   function renderCards() {
-    const start = (currentPage - 1) * PER_PAGE;
-    const end = start + PER_PAGE;
-    const page = filteredData.slice(start, end);
+    var page = filteredData.slice(0, visibleCount);
 
     listEl.innerHTML = '';
 
@@ -62,6 +61,27 @@
     page.forEach(function (community) {
       listEl.appendChild(createCard(community));
     });
+
+    // Show or hide the "load more" indicator
+    if (visibleCount < filteredData.length) {
+      paginationEl.innerHTML = '<div class="scroll-loader"><div class="scroll-spinner"></div></div>';
+    } else {
+      paginationEl.innerHTML = '';
+    }
+  }
+
+  function appendCards() {
+    var start = visibleCount;
+    visibleCount += PER_PAGE;
+    var newItems = filteredData.slice(start, visibleCount);
+
+    newItems.forEach(function (community) {
+      listEl.appendChild(createCard(community));
+    });
+
+    if (visibleCount >= filteredData.length) {
+      paginationEl.innerHTML = '';
+    }
   }
 
   function createCard(c) {
@@ -142,7 +162,7 @@
 
   // ---- Filtering ----
   function applyFilters() {
-    currentPage = 1;
+    visibleCount = PER_PAGE;
     var query = searchQuery.toLowerCase().trim();
 
     filteredData = COMMUNITIES_DATA.filter(function (c) {
@@ -170,7 +190,6 @@
 
     updateCount(filteredData.length);
     renderCards();
-    renderPagination();
     renderActiveFilters();
   }
 
@@ -214,47 +233,20 @@
     });
   }
 
-  // ---- Pagination ----
-  function renderPagination() {
-    paginationEl.innerHTML = '';
-    var totalPages = Math.ceil(filteredData.length / PER_PAGE);
+  // ---- Infinite Scroll ----
+  function bindInfiniteScroll() {
+    window.addEventListener('scroll', function () {
+      if (loading || visibleCount >= filteredData.length) return;
 
-    if (totalPages <= 1) return;
+      var scrollBottom = window.innerHeight + window.scrollY;
+      var threshold = document.documentElement.scrollHeight - 300;
 
-    if (currentPage > 1) {
-      var prevBtn = document.createElement('button');
-      prevBtn.className = 'pagination-btn';
-      prevBtn.textContent = 'Previous';
-      prevBtn.addEventListener('click', function () {
-        currentPage--;
-        renderCards();
-        renderPagination();
-        scrollToTop();
-      });
-      paginationEl.appendChild(prevBtn);
-    }
-
-    var info = document.createElement('span');
-    info.style.cssText = 'display:inline-flex;align-items:center;margin:0 16px;font-size:16px;font-weight:700;';
-    info.textContent = currentPage + ' / ' + totalPages;
-    paginationEl.appendChild(info);
-
-    if (currentPage < totalPages) {
-      var nextBtn = document.createElement('button');
-      nextBtn.className = 'pagination-btn';
-      nextBtn.textContent = 'Next';
-      nextBtn.addEventListener('click', function () {
-        currentPage++;
-        renderCards();
-        renderPagination();
-        scrollToTop();
-      });
-      paginationEl.appendChild(nextBtn);
-    }
-  }
-
-  function scrollToTop() {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+      if (scrollBottom >= threshold) {
+        loading = true;
+        appendCards();
+        loading = false;
+      }
+    });
   }
 
   // ---- Dropdown Logic ----

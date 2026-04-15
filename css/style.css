@@ -563,30 +563,19 @@ a.text-lg.header:hover {
   margin-top: 48px;
 }
 
-.pagination-btn {
-  display: inline-block;
-  padding: 10px 32px;
-  font-size: 16px;
-  font-weight: 700;
-  color: var(--black);
+.scroll-loader {
+  display: flex;
+  justify-content: center;
+  padding: 24px;
+}
+
+.scroll-spinner {
+  width: 32px;
+  height: 32px;
   border: 3px solid var(--dim-grey);
-  border-radius: 2px;
-  background: var(--white);
-  cursor: pointer;
-  transition: background-color 0.2s;
-}
-
-.pagination-btn:hover {
-  background-color: var(--sandy-brown);
-}
-
-.pagination-btn:disabled {
-  opacity: 0.4;
-  cursor: default;
-}
-
-.pagination-btn:disabled:hover {
-  background-color: var(--white);
+  border-top-color: var(--sandy-brown);
+  border-radius: 50%;
+  animation: spin 0.6s linear infinite;
 }
 
 /* ---- Modal Overlay ---- */
