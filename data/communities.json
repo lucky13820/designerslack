@@ -1,42 +1,5 @@
 [
   {
-    "name": "ADPList",
-    "slug": "adplist",
-    "description": "Find, Book and Meet Mentors around the world. Get virtual mentorship from over 1,374+ mentors from the world’s leading companies in our global community.",
-    "accessType": "invite-only",
-    "badgeTextColor": "hsla(255.95744680851064, 43.93%, 41.96%, 1.00)",
-    "badgeBgColor": "hsla(269.9999999999999, 100.00%, 98.04%, 1.00)",
-    "websiteUrl": "https://adplist.org",
-    "twitterUrl": "https://twitter.com/adplist",
-    "instagramUrl": "",
-    "logoUrl": "images/logos/adplist.webp",
-    "locations": [
-      "Global"
-    ],
-    "types": [
-      "General"
-    ]
-  },
-  {
-    "name": "AfriSplash Remotely",
-    "slug": "afrisplash-remotely",
-    "description": "Africa’s #1 remote work community promoting diversity in the global remote workforce through African talents. Join the community 🌍, share your openings 📂, connect with creative talents 🤝🏾, make that hire ✅ & build a world-class distributed team on mutual trust 📈.",
-    "accessType": "public",
-    "badgeTextColor": "hsla(151.875, 45.07%, 27.84%, 1.00)",
-    "badgeBgColor": "hsla(136.00000000000006, 100.00%, 97.06%, 1.00)",
-    "websiteUrl": "https://afrisplash.com",
-    "twitterUrl": "https://twitter.com/Afrisplash",
-    "instagramUrl": "",
-    "logoUrl": "images/logos/afrisplash-remotely.webp",
-    "locations": [
-      "Africa"
-    ],
-    "types": [
-      "General",
-      "Minority Group"
-    ]
-  },
-  {
     "name": "AIGA Austin",
     "slug": "aiga-austin",
     "description": "AIGA is the professional association for design. We connect our creative community through programming that inspires, educates and advocates for design.",
@@ -88,22 +51,6 @@
     ],
     "types": [
       "General"
-    ]
-  },
-  {
-    "name": "Animation at Work",
-    "slug": "animation-at-work",
-    "description": "Become a part of our animation community: Join the conversation and meet other web animation and UI animation folks like you!",
-    "accessType": "public",
-    "badgeTextColor": "hsla(151.875, 45.07%, 27.84%, 1.00)",
-    "badgeBgColor": "hsla(136.00000000000006, 100.00%, 97.06%, 1.00)",
-    "websiteUrl": "http://damp-lake-50659.herokuapp.com",
-    "twitterUrl": "",
-    "instagramUrl": "",
-    "logoUrl": "images/logos/animation-at-work.webp",
-    "locations": [],
-    "types": [
-      "Animation"
     ]
   },
   {
@@ -252,19 +199,22 @@
     ]
   },
   {
-    "name": "Blackformat",
-    "slug": "blackformat",
-    "description": "Blackformat is a diverse international collective of designers, illustrators, animators, and developers created to provide support, share inspiration, receive feedback, and encourage healthy discussion of all things design.",
-    "accessType": "public",
-    "badgeTextColor": "hsla(151.875, 45.07%, 27.84%, 1.00)",
-    "badgeBgColor": "hsla(136.00000000000006, 100.00%, 97.06%, 1.00)",
-    "websiteUrl": "http://blackformat.com",
-    "twitterUrl": "https://twitter.com/BlackformatPro",
+    "name": "Black UX Austin",
+    "slug": "black-ux-austin",
+    "description": "A community for Black UX professionals in Austin to meet, discuss their craft, share stories, and uplift each other in research, design, and product development.",
+    "accessType": "invite-only",
+    "badgeTextColor": "hsla(255.95744680851064, 43.93%, 41.96%, 1.00)",
+    "badgeBgColor": "hsla(269.9999999999999, 100.00%, 98.04%, 1.00)",
+    "websiteUrl": "https://forms.gle/5f1JCb1SUZA36TqUA",
+    "twitterUrl": "",
     "instagramUrl": "",
-    "logoUrl": "images/logos/blackformat.webp",
-    "locations": [],
+    "logoUrl": "",
+    "locations": [
+      "USA"
+    ],
     "types": [
-      "General"
+      "Minority Group",
+      "UX/UI"
     ]
   },
   {
@@ -392,22 +342,6 @@
     ]
   },
   {
-    "name": "CodeCrumbs",
-    "slug": "codecrumbs",
-    "description": "A community repo with code crumbs to give your websites that extra bit of functionality!",
-    "accessType": "public",
-    "badgeTextColor": "hsla(151.875, 45.07%, 27.84%, 1.00)",
-    "badgeBgColor": "hsla(136.00000000000006, 100.00%, 97.06%, 1.00)",
-    "websiteUrl": "https://www.codecrumbs.co",
-    "twitterUrl": "",
-    "instagramUrl": "",
-    "logoUrl": "images/logos/codecrumbs.webp",
-    "locations": [],
-    "types": [
-      "Software"
-    ]
-  },
-  {
     "name": "Content + UX",
     "slug": "content-ux",
     "description": "A community of professionals celebrating content strategy, content itself, and its role in the user experience. Join more than 4,000 content and content-adjacent professionals who support each other, share knowledge and understanding, and help shape the field of content strategy.",
@@ -491,6 +425,25 @@
     "locations": [],
     "types": [
       "UX/UI"
+    ]
+  },
+  {
+    "name": "Delta CX",
+    "slug": "delta-cx",
+    "description": "The Delta CX community of \"Low Ego Action Heroes\" offers free peer and expert help, support, and advice across CX/UX research, content, information architecture, interaction design, and strategy.",
+    "accessType": "public",
+    "badgeTextColor": "hsla(151.875, 45.07%, 27.84%, 1.00)",
+    "badgeBgColor": "hsla(136.00000000000006, 100.00%, 97.06%, 1.00)",
+    "websiteUrl": "https://deltacx.com",
+    "twitterUrl": "",
+    "instagramUrl": "",
+    "logoUrl": "images/logos/delta-cx.webp",
+    "locations": [
+      "Global"
+    ],
+    "types": [
+      "UX/UI",
+      "User Research"
     ]
   },
   {
@@ -595,22 +548,6 @@
       "Global",
       "Sweden"
     ],
-    "types": [
-      "Design Leaders"
-    ]
-  },
-  {
-    "name": "Design Leadership Community",
-    "slug": "design-leadership-community",
-    "description": "Whether it’s requesting feedback on career ladders or asking for advice on performance management challenges, we’re here for you. We’re leveling up our industry, together.",
-    "accessType": "invite-only",
-    "badgeTextColor": "hsla(255.95744680851064, 43.93%, 41.96%, 1.00)",
-    "badgeBgColor": "hsla(269.9999999999999, 100.00%, 98.04%, 1.00)",
-    "websiteUrl": "https://www.designdept.co/community",
-    "twitterUrl": "https://twitter.com/designdeptco",
-    "instagramUrl": "",
-    "logoUrl": "images/logos/design-leadership-community.webp",
-    "locations": [],
     "types": [
       "Design Leaders"
     ]
@@ -868,24 +805,6 @@
     ]
   },
   {
-    "name": "DesignOps Assembly",
-    "slug": "designops-assembly",
-    "description": "Whether you’re new to Design Operations, a tenured leader or just DesignOps-curious, we’ve got you. DOA is a global network of over 1,000 DesignOps practitioners of all levels, working in top Tech companies, boutique Design agencies and everything in between.",
-    "accessType": "invite-only",
-    "badgeTextColor": "hsla(255.95744680851064, 43.93%, 41.96%, 1.00)",
-    "badgeBgColor": "hsla(269.9999999999999, 100.00%, 98.04%, 1.00)",
-    "websiteUrl": "https://designopsassembly.com",
-    "twitterUrl": "",
-    "instagramUrl": "",
-    "logoUrl": "images/logos/designops-assembly.webp",
-    "locations": [
-      "Global"
-    ],
-    "types": [
-      "Design Ops"
-    ]
-  },
-  {
     "name": "DesignOps Community",
     "slug": "designops-community",
     "description": "Join over 4,000 like-minded people interested in Design and Research Operations",
@@ -958,24 +877,6 @@
     ]
   },
   {
-    "name": "Editor X Community",
-    "slug": "editor-x-community",
-    "description": "Connect with other creators, share ideas, give feedback and get the latest product updates about Editor X product.",
-    "accessType": "public",
-    "badgeTextColor": "hsla(151.875, 45.07%, 27.84%, 1.00)",
-    "badgeBgColor": "hsla(136.00000000000006, 100.00%, 97.06%, 1.00)",
-    "websiteUrl": "https://www.editorxcommunity.com",
-    "twitterUrl": "https://twitter.com/editorx",
-    "instagramUrl": "",
-    "logoUrl": "images/logos/editor-x-community.webp",
-    "locations": [
-      "Global"
-    ],
-    "types": [
-      "Product"
-    ]
-  },
-  {
     "name": "Email Geeks",
     "slug": "email-geeks",
     "description": "The Slack community where email marketers, designers, and developers meet to talk shop.",
@@ -989,24 +890,6 @@
     "locations": [],
     "types": [
       "Technology"
-    ]
-  },
-  {
-    "name": "Fearless Community",
-    "slug": "the-fearless-community",
-    "description": "We are champions for change. But we can’t do it alone. Together we can lead the fight in making our world a better place. A global network of designers, sharing content, insights, and advice to design a better a world.",
-    "accessType": "invite-only",
-    "badgeTextColor": "hsla(255.95744680851064, 43.93%, 41.96%, 1.00)",
-    "badgeBgColor": "hsla(269.9999999999999, 100.00%, 98.04%, 1.00)",
-    "websiteUrl": "https://www.itsfearless.com/community",
-    "twitterUrl": "https://twitter.com/_fearlessgroup",
-    "instagramUrl": "",
-    "logoUrl": "images/logos/the-fearless-community.webp",
-    "locations": [
-      "Global"
-    ],
-    "types": [
-      "General"
     ]
   },
   {
@@ -1109,40 +992,6 @@
     ]
   },
   {
-    "name": "Freelance Founders",
-    "slug": "freelance-founders",
-    "description": "Freelance Founders is a digital members-only platform designed for freelancers, by freelancers. It gives top-tier creatives access to business experts, exclusive job opportunities, and a network of like-minded people to maintain their creative freedom, charge their worth, and build financially viable businesses for the long-term.",
-    "accessType": "invite-only",
-    "badgeTextColor": "hsla(255.95744680851064, 43.93%, 41.96%, 1.00)",
-    "badgeBgColor": "hsla(269.9999999999999, 100.00%, 98.04%, 1.00)",
-    "websiteUrl": "https://www.freelancefounders.com",
-    "twitterUrl": "",
-    "instagramUrl": "",
-    "logoUrl": "images/logos/freelance-founders.webp",
-    "locations": [
-      "Global"
-    ],
-    "types": [
-      "Remote Work"
-    ]
-  },
-  {
-    "name": "French Designers Club",
-    "slug": "french-designers-club",
-    "description": "Dès le départ, la communauté s’est appropriée l’outil Slack pour rassembler les designers francophones du monde entier. Le French Designers Club, c’est un peu comme la maison des designers francophones du monde entier.",
-    "accessType": "public",
-    "badgeTextColor": "hsla(151.875, 45.07%, 27.84%, 1.00)",
-    "badgeBgColor": "hsla(136.00000000000006, 100.00%, 97.06%, 1.00)",
-    "websiteUrl": "http://www.frenchdesigners.club",
-    "twitterUrl": "https://twitter.com/frenchdesigners",
-    "instagramUrl": "",
-    "logoUrl": "images/logos/french-designers-club.webp",
-    "locations": [],
-    "types": [
-      "General"
-    ]
-  },
-  {
     "name": "Friends of Figma",
     "slug": "friends-of-figma",
     "description": "A Slack community with over 1500 Figmates. We talked about anything related to Figma, design, remote work, or just about anything.",
@@ -1174,25 +1023,6 @@
     ],
     "types": [
       "Software"
-    ]
-  },
-  {
-    "name": "Good News",
-    "slug": "good-news",
-    "description": "Good News is a community for designers and other product people. We celebrate one another, share accomplishments, assume good intent, and reject cynicism.",
-    "accessType": "invite-only",
-    "badgeTextColor": "hsla(255.95744680851064, 43.93%, 41.96%, 1.00)",
-    "badgeBgColor": "hsla(269.9999999999999, 100.00%, 98.04%, 1.00)",
-    "websiteUrl": "https://news.hifolks.com",
-    "twitterUrl": "https://twitter.com/ffffolks",
-    "instagramUrl": "",
-    "logoUrl": "images/logos/good-news.webp",
-    "locations": [
-      "Global"
-    ],
-    "types": [
-      "General",
-      "Product"
     ]
   },
   {
@@ -1283,24 +1113,6 @@
     ],
     "types": [
       "General"
-    ]
-  },
-  {
-    "name": "Ideate Labs",
-    "slug": "ideate-labs",
-    "description": "We keep you updated on the latest design trends, job postings, new product releases, innovation trends, marketing and business strategy, entrepreneurship 101, applying design thinking frameworks, and so much more!",
-    "accessType": "public",
-    "badgeTextColor": "hsla(151.875, 45.07%, 27.84%, 1.00)",
-    "badgeBgColor": "hsla(136.00000000000006, 100.00%, 97.06%, 1.00)",
-    "websiteUrl": "https://www.ideatelabs.co",
-    "twitterUrl": "",
-    "instagramUrl": "",
-    "logoUrl": "images/logos/ideate-labs.webp",
-    "locations": [
-      "Global"
-    ],
-    "types": [
-      "UX/UI"
     ]
   },
   {
@@ -1564,22 +1376,6 @@
     ]
   },
   {
-    "name": "Más Mujeres en UX",
-    "slug": "mas-mujeres-en-ux",
-    "description": "+Mujeres en UX es una comunidad independiente de mujeres que trabajan o están interesadas en la Experiencia de usuario. Fue creada por la diseñadora Carolina Sepúlveda y la periodista Mariana Valenzuela en enero de 2018.",
-    "accessType": "public",
-    "badgeTextColor": "hsla(151.875, 45.07%, 27.84%, 1.00)",
-    "badgeBgColor": "hsla(136.00000000000006, 100.00%, 97.06%, 1.00)",
-    "websiteUrl": "http://masmujeresux.cl",
-    "twitterUrl": "https://twitter.com/masmujeresux",
-    "instagramUrl": "",
-    "logoUrl": "images/logos/mas-mujeres-en-ux.webp",
-    "locations": [],
-    "types": [
-      "UX/UI"
-    ]
-  },
-  {
     "name": "Memorisely",
     "slug": "memorisely",
     "description": "Memorisely is an online tech campus educating career switchers and product teams in UX/UI Design & coding. Connect with over 11,000+ UX/UI designers in 150+ countries.",
@@ -1665,25 +1461,6 @@
     ]
   },
   {
-    "name": "Natives in Tech",
-    "slug": "natives-in-tech",
-    "description": "Cultivate a tech ecosystem of Native technologists crafting free and open source technology for Native communities.",
-    "accessType": "public",
-    "badgeTextColor": "hsla(151.875, 45.07%, 27.84%, 1.00)",
-    "badgeBgColor": "hsla(136.00000000000006, 100.00%, 97.06%, 1.00)",
-    "websiteUrl": "https://nativesintech.org/",
-    "twitterUrl": "https://twitter.com/nativesintech",
-    "instagramUrl": "",
-    "logoUrl": "images/logos/natives-in-tech.webp",
-    "locations": [
-      "Global"
-    ],
-    "types": [
-      "General",
-      "Minority Group"
-    ]
-  },
-  {
     "name": "Nomads Talk",
     "slug": "nomads-talk",
     "description": "​Join our slack community and connect with fellow digital nomads. Explore new places around you by connecting with other digital nomads around you. Plan Your trips with other nomads in you city. Our specific channel for each city will let you find nomads in your city.",
@@ -1744,40 +1521,6 @@
     "twitterUrl": "",
     "instagramUrl": "",
     "logoUrl": "images/logos/overflow-community.webp",
-    "locations": [],
-    "types": [
-      "Software"
-    ]
-  },
-  {
-    "name": "PAY IT FWD",
-    "slug": "pay-it-fwd",
-    "description": "We're a community of designers and creatives who support nonprofits through our time and skills. While we work on our website, we have found a way to connect creatives and nonprofit organizations. Join our Slack community to learn how you can help using your skills.",
-    "accessType": "invite-only",
-    "badgeTextColor": "hsla(255.95744680851064, 43.93%, 41.96%, 1.00)",
-    "badgeBgColor": "hsla(269.9999999999999, 100.00%, 98.04%, 1.00)",
-    "websiteUrl": "https://payitfwd.design/",
-    "twitterUrl": "",
-    "instagramUrl": "",
-    "logoUrl": "images/logos/pay-it-fwd.webp",
-    "locations": [
-      "Global"
-    ],
-    "types": [
-      "General"
-    ]
-  },
-  {
-    "name": "Phase Community",
-    "slug": "phase-community",
-    "description": "A community for Phase. A tool for designing and prototyping websites and apps visually and intuitively, in a new powerful product reworked for the digital age.",
-    "accessType": "public",
-    "badgeTextColor": "hsla(151.875, 45.07%, 27.84%, 1.00)",
-    "badgeBgColor": "hsla(136.00000000000006, 100.00%, 97.06%, 1.00)",
-    "websiteUrl": "https://phase.com/community",
-    "twitterUrl": "https://twitter.com/phasecommunity",
-    "instagramUrl": "",
-    "logoUrl": "images/logos/phase-community.webp",
     "locations": [],
     "types": [
       "Software"
@@ -1903,22 +1646,6 @@
     ]
   },
   {
-    "name": "Queer Design Club",
-    "slug": "queer-design-club",
-    "description": "The Queer Design Club Slack is a closed space for LGBTQ+ designers to build community—whether you want to ask other queer professionals for job advice, share the inspiration you just found, or ask for feedback on your latest project.",
-    "accessType": "invite-only",
-    "badgeTextColor": "hsla(255.95744680851064, 43.93%, 41.96%, 1.00)",
-    "badgeBgColor": "hsla(269.9999999999999, 100.00%, 98.04%, 1.00)",
-    "websiteUrl": "https://queerdesign.club/slack/",
-    "twitterUrl": "https://twitter.com/queerdesignclub",
-    "instagramUrl": "",
-    "logoUrl": "images/logos/queer-design-club.webp",
-    "locations": [],
-    "types": [
-      "General"
-    ]
-  },
-  {
     "name": "Relume Library",
     "slug": "relume-library",
     "description": "Access the world’s largest library of Webflow components and build better websites in hours, not days. Share work, seek support, vote on components, stay updated and network with other Lumers.",
@@ -1967,22 +1694,6 @@
     "locations": [],
     "types": [
       "User Research"
-    ]
-  },
-  {
-    "name": "San Diego Digital Designers",
-    "slug": "san-diego-digital-designers",
-    "description": "Online meeting place for digital designers in San Diego to meet and greet.Discuss design, get feedback, land jobs, find tools, hire designers, commiserate, celebrate…",
-    "accessType": "invite-only",
-    "badgeTextColor": "hsla(255.95744680851064, 43.93%, 41.96%, 1.00)",
-    "badgeBgColor": "hsla(269.9999999999999, 100.00%, 98.04%, 1.00)",
-    "websiteUrl": "https://sddd.org",
-    "twitterUrl": "https://twitter.com/_sddd_",
-    "instagramUrl": "",
-    "logoUrl": "images/logos/san-diego-digital-designers.webp",
-    "locations": [],
-    "types": [
-      "General"
     ]
   },
   {
@@ -2050,24 +1761,6 @@
     "types": [
       "Minority Group",
       "Technology"
-    ]
-  },
-  {
-    "name": "SIDE PRJCT",
-    "slug": "side-prjct",
-    "description": "Continue the conversation in our inclusive & diverse community of like-minded people with various backgrounds & skills, who want to build side projects to make an impact and advance in their careers.",
-    "accessType": "invite-only",
-    "badgeTextColor": "hsla(255.95744680851064, 43.93%, 41.96%, 1.00)",
-    "badgeBgColor": "hsla(269.9999999999999, 100.00%, 98.04%, 1.00)",
-    "websiteUrl": "https://www.sideprjct.com",
-    "twitterUrl": "",
-    "instagramUrl": "",
-    "logoUrl": "images/logos/side-prjct.webp",
-    "locations": [
-      "Global"
-    ],
-    "types": [
-      "General"
     ]
   },
   {
@@ -2400,23 +2093,6 @@
     ]
   },
   {
-    "name": "UX and Product",
-    "slug": "ux-and-product",
-    "description": "Stay in touch with the brightest minds in the UX and Product field by joining our Slack workspace",
-    "accessType": "invite-only",
-    "badgeTextColor": "hsla(255.95744680851064, 43.93%, 41.96%, 1.00)",
-    "badgeBgColor": "hsla(269.9999999999999, 100.00%, 98.04%, 1.00)",
-    "websiteUrl": "http://uxandproduct.com",
-    "twitterUrl": "",
-    "instagramUrl": "",
-    "logoUrl": "images/logos/ux-and-product.webp",
-    "locations": [],
-    "types": [
-      "Product",
-      "UX/UI"
-    ]
-  },
-  {
     "name": "UX Flupa",
     "slug": "ux-flupa",
     "description": "Communauté d'UX designers francophones, l'association FLUPA organise les UX Days, UX Camp et des événements UX dans plus d'une dizaine de villes francophones.",
@@ -2567,22 +2243,6 @@
     "twitterUrl": "",
     "instagramUrl": "",
     "logoUrl": "images/logos/ux-seattle.webp",
-    "locations": [],
-    "types": [
-      "UX/UI"
-    ]
-  },
-  {
-    "name": "UX.guide",
-    "slug": "ux-guide",
-    "description": "UX.guide is a collection of useful information for people interested in User Experience, Product Design, and the general art and science of improving the human condition through making things of value.",
-    "accessType": "public",
-    "badgeTextColor": "hsla(151.875, 45.07%, 27.84%, 1.00)",
-    "badgeBgColor": "hsla(136.00000000000006, 100.00%, 97.06%, 1.00)",
-    "websiteUrl": "http://ux.guide",
-    "twitterUrl": "https://twitter.com/ux_guide",
-    "instagramUrl": "",
-    "logoUrl": "images/logos/ux-guide.webp",
     "locations": [],
     "types": [
       "UX/UI"
