@@ -9,7 +9,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://adplist.org",
     "twitterUrl": "https://twitter.com/adplist",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/60581b2a53114ad37bcbe57f_D8yCbKSe_200x200.jpg",
+    "logoUrl": "images/logos/adplist.webp",
     "locations": [
       "Global"
     ],
@@ -27,7 +27,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://afrisplash.com",
     "twitterUrl": "https://twitter.com/Afrisplash",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/609628c65bb11814289888e7_preview%20copy.jpg",
+    "logoUrl": "images/logos/afrisplash-remotely.webp",
     "locations": [
       "Africa"
     ],
@@ -46,7 +46,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://austin.aiga.org",
     "twitterUrl": "https://twitter.com/aigaaustin",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/6003c96234c99910a265f708_5JRk0BY2_200x200.png",
+    "logoUrl": "images/logos/aiga-austin.webp",
     "locations": [
       "USA"
     ],
@@ -64,7 +64,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://houston.aiga.org/slack/",
     "twitterUrl": "https://twitter.com/aigahouston",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/6003c521e8cd6c048290ed58_default_favicon.png",
+    "logoUrl": "images/logos/aiga-houston.webp",
     "locations": [
       "USA"
     ],
@@ -82,7 +82,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://alignedpixels.com",
     "twitterUrl": "https://twitter.com/alignedpixels",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5f98b59a7f23f29e7a925e86_apple-touch-icon.png",
+    "logoUrl": "images/logos/aligned-pixels.webp",
     "locations": [
       "Global"
     ],
@@ -100,7 +100,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "http://damp-lake-50659.herokuapp.com",
     "twitterUrl": "",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5eb3a303f59523274be1322b_315182589863_f36e6a001d08ececabe0_230.png",
+    "logoUrl": "images/logos/animation-at-work.webp",
     "locations": [],
     "types": [
       "Animation"
@@ -116,7 +116,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://www.apiwho.design",
     "twitterUrl": "",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/6067375d8d1d0f9473eef5a6_5ee58eaf04a88139a3b18fcb_APIwd-webclip.png",
+    "logoUrl": "images/logos/api-who-design.webp",
     "locations": [
       "APAC"
     ],
@@ -135,7 +135,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://architechie.org",
     "twitterUrl": "https://twitter.com/architechieorg",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/617b91469a4191a5d087bb91_arch.png",
+    "logoUrl": "images/logos/architechie.webp",
     "locations": [
       "Global"
     ],
@@ -155,7 +155,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "http://austinux.org",
     "twitterUrl": "https://twitter.com/AustinUX",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5f189110c080bd6f95957b2b_5ec59b8ad4bfbc634283afed_17af7c5cae049e4d9b879800cacb83e8_200x200.jpeg",
+    "logoUrl": "images/logos/austin-ux.webp",
     "locations": [],
     "types": [
       "UX/UI"
@@ -171,7 +171,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://uxpa-austin.slack.com/join/shared_invite/zt-8jhqaj47-5r_kuxDXTqD~enfc46pn6g#/",
     "twitterUrl": "https://twitter.com/austinuxpa",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/6003c43152e82af304dc8fad_YItuEItk_200x200.jpg",
+    "logoUrl": "images/logos/austin-uxpa.webp",
     "locations": [
       "USA"
     ],
@@ -189,7 +189,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://betterproduct.community",
     "twitterUrl": "https://twitter.com/betterproduct_",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/6081e96f57f94bdf2bfc8171_klRQj_u0_x96.jpg",
+    "logoUrl": "images/logos/better-product-community.webp",
     "locations": [
       "Global"
     ],
@@ -207,7 +207,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://slofile.com/slack/betterwebtype",
     "twitterUrl": "https://twitter.com/matejlatin",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5eaf7bb76c54edd0d4a11755_126164400308_47a605546bc64362812b_132.jpg",
+    "logoUrl": "images/logos/better-web-type.webp",
     "locations": [],
     "types": [
       "Typography"
@@ -223,7 +223,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://bitcoin.design",
     "twitterUrl": "https://twitter.com/bitcoin_design",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/61ec4499d40a9cb377094b2a_apple-touch-icon.png",
+    "logoUrl": "images/logos/bitcoin-design.webp",
     "locations": [
       "Global"
     ],
@@ -261,7 +261,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "http://blackformat.com",
     "twitterUrl": "https://twitter.com/BlackformatPro",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5eb1ca56f623cbc66db71c54_Blackformat.svg",
+    "logoUrl": "images/logos/blackformat.webp",
     "locations": [],
     "types": [
       "General"
@@ -277,7 +277,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://blackswho.design",
     "twitterUrl": "https://twitter.com/blackswhodesign",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/6067368a96132245dff60ac8_qjua54NH_200x200.jpg",
+    "logoUrl": "images/logos/blacks-who-design.webp",
     "locations": [
       "Global"
     ],
@@ -295,7 +295,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://blkbk.co",
     "twitterUrl": "https://twitter.com/blkbkhq",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/6215204ffbd936ec29845dbf_Avatar%20320_320%401x.png",
+    "logoUrl": "images/logos/blkbk.webp",
     "locations": [
       "Global"
     ],
@@ -331,7 +331,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "http://www.bostonuxarmy.com",
     "twitterUrl": "",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5eb3a05d6a6e841cebee31c9_2589452-0-UXfavi2.png",
+    "logoUrl": "images/logos/boston-ux.webp",
     "locations": [],
     "types": [
       "UX/UI"
@@ -347,7 +347,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://sites.google.com/view/bkproductdesign",
     "twitterUrl": "https://twitter.com/bkproductdesign",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5f4c7ef95d72f7138a4bf9ab_2Ra76Sra_200x200.jpg",
+    "logoUrl": "images/logos/brooklyn-product-design.webp",
     "locations": [
       "USA"
     ],
@@ -365,7 +365,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://www.calgaryux.com",
     "twitterUrl": "https://twitter.com/calgaryux",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/633f0b9f76651e60b4d7da4c_Dd3NHaFD_200x200.jpg",
+    "logoUrl": "images/logos/calgary-ux.webp",
     "locations": [
       "Canada"
     ],
@@ -383,7 +383,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://www.thestarter.io/comunidade",
     "twitterUrl": "",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/6511fff0f386bae847672c6b_6224f23298a8e16a2d96d6af_Logo%20Clube%20de%20UI%20Grande.png",
+    "logoUrl": "images/logos/clube-de-ui-dathestarter.webp",
     "locations": [
       "Portugal"
     ],
@@ -401,7 +401,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://www.codecrumbs.co",
     "twitterUrl": "",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5ec462cd93499d402e8264ef_5da47167ae7ebdb369e0142e_CodeCrumbs-Webclip.png",
+    "logoUrl": "images/logos/codecrumbs.webp",
     "locations": [],
     "types": [
       "Software"
@@ -417,7 +417,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://contentandux.org",
     "twitterUrl": "",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5eaf936fb8d39c80127b4686_13882539303_60efd818879c3c5ded95_132.jpg",
+    "logoUrl": "images/logos/content-ux.webp",
     "locations": [],
     "types": [
       "Content"
@@ -433,7 +433,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://discord.gg/bD4aDdSkpU",
     "twitterUrl": "https://twitter.com/CreateRemote",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/6032cabc19cd21648dc4ad75_7QpZH_AR_200x200.jpg",
+    "logoUrl": "images/logos/createremote.webp",
     "locations": [
       "Global"
     ],
@@ -452,7 +452,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "http://creative-huddle.com/",
     "twitterUrl": "https://twitter.com/creativehuddle_",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5f18865b59e7a6b96424dc70_5f108c85f5a374c059bd06b8_1263146972592_cbc87297f786b3e318ee_230.jpg",
+    "logoUrl": "images/logos/creative-huddle.webp",
     "locations": [],
     "types": [
       "General",
@@ -469,7 +469,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://creativetokyo.com/",
     "twitterUrl": "",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/651205722da0a9b6de51df83_231826417_168055241959262_1810281735781867826_n.jpg",
+    "logoUrl": "images/logos/creative-tokyo.webp",
     "locations": [
       "Japan"
     ],
@@ -487,7 +487,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "http://dcux.org/slack",
     "twitterUrl": "https://twitter.com/dcux",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5eb99854794f6d375e8c134e_WSuHpVEx_200x200.jpg",
+    "logoUrl": "images/logos/dcux.webp",
     "locations": [],
     "types": [
       "UX/UI"
@@ -503,7 +503,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://designbuddies.community",
     "twitterUrl": "",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5eb48ee6c4657e6188c8121d_81a34e268b485ab922f64307b83f73e3.png",
+    "logoUrl": "images/logos/design-buddies.webp",
     "locations": [
       "Global"
     ],
@@ -521,7 +521,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://bit.ly/designfriends-slack",
     "twitterUrl": "",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5fa026ec9bbb4c12725d8af3_1410902463618_0a07867d762648cd1d69_230.png",
+    "logoUrl": "images/logos/design-friends.webp",
     "locations": [
       "Germany",
       "Global"
@@ -540,7 +540,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://www.designgigsforgood.org",
     "twitterUrl": "https://twitter.com/DesignGigs4Good",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5eb1b56309c4ef95feadc200_favicon.ico.png",
+    "logoUrl": "images/logos/design-gigs-for-good.webp",
     "locations": [],
     "types": [
       "General"
@@ -556,7 +556,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://www.designinfocus.org",
     "twitterUrl": "",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/62d254ccfc49d742cedc3f09_1651523678518.jpeg",
+    "logoUrl": "images/logos/design-in-focus.webp",
     "locations": [
       "Global"
     ],
@@ -590,7 +590,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "http://designleadership.se",
     "twitterUrl": "",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5f697b382528507ba96deec0_cropped-Rityta-1-192x192.png",
+    "logoUrl": "images/logos/design-leadership-2.webp",
     "locations": [
       "Global",
       "Sweden"
@@ -609,7 +609,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://www.designdept.co/community",
     "twitterUrl": "https://twitter.com/designdeptco",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5eb076525b8c1c7e07345769_favicon.ico.png",
+    "logoUrl": "images/logos/design-leadership-community.webp",
     "locations": [],
     "types": [
       "Design Leaders"
@@ -625,7 +625,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://www.invisionapp.com/design-leadership-forum/",
     "twitterUrl": "https://twitter.com/InVisionApp",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/611574b48162ab0cd872e511_apple-touch-icon.png",
+    "logoUrl": "images/logos/design-leadership-forum.webp",
     "locations": [
       "Global"
     ],
@@ -643,7 +643,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://design-ops.it/about",
     "twitterUrl": "",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/65120078e750dbdc4b2add88_1_AqwOIcH3wpS71594d7-ZkQ.png",
+    "logoUrl": "images/logos/design-ops-italia.webp",
     "locations": [
       "Italy"
     ],
@@ -661,7 +661,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://join.slack.com/t/designsprintsapac/shared_invite/zt-iongs8x0-ibVsnbdzTJUibQMbc3MfMw",
     "twitterUrl": "",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5f18908ed368ef450f13236d_5ecfec2d9540ca58e2f6722c_1127820195830_acf328cebf837bbff440_230.png",
+    "logoUrl": "images/logos/design-sprints-apac.webp",
     "locations": [],
     "types": [
       "General"
@@ -677,7 +677,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://designsystem.university/",
     "twitterUrl": "https://twitter.com/designsystemu",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/6492443573e6d041caced8eb_jh1Us8gm_400x400.jpg",
+    "logoUrl": "images/logos/design-system-university.webp",
     "locations": [
       "Global"
     ],
@@ -695,7 +695,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://designsystems.fr/",
     "twitterUrl": "https://twitter.com/designsystemsfr",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5f189064ac2666d4a949e946_5eda9e82661a4000f1add6ee_7EUECeiP_200x200.jpg",
+    "logoUrl": "images/logos/design-systems-france.webp",
     "locations": [],
     "types": [
       "Design System"
@@ -711,7 +711,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://design.systems",
     "twitterUrl": "",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5f77946f807a092a7d5bfffc_893539479125_804358c949b9241b0b8e_230.png",
+    "logoUrl": "images/logos/design-systems-slack.webp",
     "locations": [],
     "types": [
       "Design System"
@@ -727,7 +727,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://airtable.com/shrHgouIXy3p85oHy",
     "twitterUrl": "",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5f189189404dffd30fe33e52_5eb43df8b21f577320def235_2e84850b.png",
+    "logoUrl": "images/logos/design-to-combat-covid-19.webp",
     "locations": [],
     "types": [
       "General"
@@ -759,7 +759,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://www.designed.org",
     "twitterUrl": "https://twitter.com/joindesigned",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5eb351806a6e84d60bec4eec_nb6NEV3o_200x200.jpg",
+    "logoUrl": "images/logos/designed-org.webp",
     "locations": [],
     "types": [
       "General"
@@ -775,7 +775,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://www.designerhangout.co",
     "twitterUrl": "https://twitter.com/DesignerHangout",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5eaf59cf85c94f2109b499bf_206578084145_39aa69fd544736a7d3fa_230.png",
+    "logoUrl": "images/logos/designer-hangout.webp",
     "locations": [],
     "types": [
       "General"
@@ -791,7 +791,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://chat.whatsapp.com/4mUsgzRZ2p1DrY9VtAUc3Z",
     "twitterUrl": "",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/61ec431cde6dfc77fce449ea_56910282_349198225700815_5072875822805680128_n.jpg",
+    "logoUrl": "images/logos/designers-lounge.webp",
     "locations": [
       "Global"
     ],
@@ -809,7 +809,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://discord.com/invite/2DEhmy3gvJ",
     "twitterUrl": "https://twitter.com/designersdao",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/65120217ffef93b16e0fdc68_download.jpg",
+    "logoUrl": "images/logos/designersdao.webp",
     "locations": [
       "Global"
     ],
@@ -827,7 +827,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://thedesignership.com",
     "twitterUrl": "https://twitter.com/thedesignership",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5f1892c621ddd7386ea54d92_5eaf5a5f6af9c85a59e553b2_270411521904_9884ed5f6440562662d8_230.png",
+    "logoUrl": "images/logos/designership.webp",
     "locations": [],
     "types": [
       "UX/UI"
@@ -843,7 +843,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://designerup.co/community",
     "twitterUrl": "https://twitter.com/designerupco",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/61ec43f322c2ca6f6d6f8a2f_apple-touch-icon-114x114.png",
+    "logoUrl": "images/logos/designerup-mindful-design-pro.webp",
     "locations": [
       "Global"
     ],
@@ -861,7 +861,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://www.designops.lol",
     "twitterUrl": "https://twitter.com/DesignOps_MEL",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5eb2f74c1e474e02aeb074a5_apple-touch-icon-152x152.png",
+    "logoUrl": "images/logos/designops.webp",
     "locations": [],
     "types": [
       "Design Ops"
@@ -877,7 +877,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://designopsassembly.com",
     "twitterUrl": "",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/60397f17a3f1837ca1fbd9e1_1597004658086.jpeg",
+    "logoUrl": "images/logos/designops-assembly.webp",
     "locations": [
       "Global"
     ],
@@ -895,7 +895,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://rosenfeldmedia.com/designops-community/#join-us",
     "twitterUrl": "https://twitter.com/RosenfeldMedia",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5f1891681e0bb8749c142150_5eb998c8bd4f384bcd4d6553_designops-twitter-1.jpg",
+    "logoUrl": "images/logos/designops-community.webp",
     "locations": [],
     "types": [
       "Design Ops"
@@ -911,7 +911,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://designsocialclub.slack.com/join/shared_invite/zt-vm2i05sm-SCTsd4y6L6SuhYnbxFrg6Q#/shared-invite/email",
     "twitterUrl": "https://twitter.com/designsocialclb",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5f18901b1e0bb86feb141ff6_5f162b8065ee737fcc307a01_8EVLQuVv_200x200.jpg",
+    "logoUrl": "images/logos/designsocialclub.webp",
     "locations": [],
     "types": [
       "General"
@@ -927,7 +927,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://designx.community",
     "twitterUrl": "https://twitter.com/WeAreDesignX",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5f1892d963186b6300bd4df7_5eed3206d66422068a49aee6_1201734437300_e03c7a476eb43cd64dc8_230.jpg",
+    "logoUrl": "images/logos/designx.webp",
     "locations": [
       "Canada",
       "Global"
@@ -946,7 +946,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://distant.community",
     "twitterUrl": "",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/61ec4557ef86940273d36485_261620952_323028499380181_3068087196393188975_n.jpg",
+    "logoUrl": "images/logos/distant-community.webp",
     "locations": [
       "Global"
     ],
@@ -967,7 +967,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://www.editorxcommunity.com",
     "twitterUrl": "https://twitter.com/editorx",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/606738568acaf65eae00c16b_3EM1pTLW_200x200.png",
+    "logoUrl": "images/logos/editor-x-community.webp",
     "locations": [
       "Global"
     ],
@@ -985,7 +985,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://email.geeks.chat",
     "twitterUrl": "",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5eb1d85a903700cc93cf3718_apple-touch-icon.png",
+    "logoUrl": "images/logos/email-geeks.webp",
     "locations": [],
     "types": [
       "Technology"
@@ -1001,7 +1001,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://www.itsfearless.com/community",
     "twitterUrl": "https://twitter.com/_fearlessgroup",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/6330e54c829453e2d50a5585_GcPYq_Xh_400x400.jpg",
+    "logoUrl": "images/logos/the-fearless-community.webp",
     "locations": [
       "Global"
     ],
@@ -1019,7 +1019,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://www.fenders.co",
     "twitterUrl": "https://twitter.com/fendersperth",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5eb2f87911df0ade46b407f2_Unknown.png",
+    "logoUrl": "images/logos/fenders.webp",
     "locations": [],
     "types": [
       "Technology"
@@ -1035,7 +1035,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://figmaitalia.slack.com/join/shared_invite/enQtNjAyNzQ0MDIyMjI4LWY5NDRjMDE3MjY1YWFkZDgzYmY4MWE0OWJjYmI4YTJjN2YyNTVlYzYzNzI3MWY4OWI3MjAzZmMxNDAxNWY4NDg#/",
     "twitterUrl": "",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5eb48fb260b62100a6fa4e19_73151579_403884650552470_556943716535762944_n.jpg",
+    "logoUrl": "images/logos/figma-italia.webp",
     "locations": [],
     "types": [
       "Software"
@@ -1051,7 +1051,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://wearefloc.com/",
     "twitterUrl": "https://twitter.com/wearefloc",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5ec16f8eb688ad585115d5be_7B5B06DC-F459-4490-928B-8FC558EAB54F.png",
+    "logoUrl": "images/logos/floc.webp",
     "locations": [],
     "types": [
       "General"
@@ -1067,7 +1067,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://createwithflow.com",
     "twitterUrl": "https://twitter.com/createwithflow",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5ebc5bfbed58b47faad940ba_258058434561_81b83a059bb0bc180e2b_230.png",
+    "logoUrl": "images/logos/flow.webp",
     "locations": [],
     "types": [
       "Software"
@@ -1083,7 +1083,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://floxiescommunity.webflow.io",
     "twitterUrl": "",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/62e809826309930a7a72e7b2_60d50e6d4a22216d05860242_Webclip%20Cla%20(2).png",
+    "logoUrl": "images/logos/floxies.webp",
     "locations": [
       "Global"
     ],
@@ -1102,7 +1102,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://www.framer.com/community/",
     "twitterUrl": "https://twitter.com/framer",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5ec46030405dcd7312e0df4a_180.png",
+    "logoUrl": "images/logos/framer.webp",
     "locations": [],
     "types": [
       "Software"
@@ -1118,7 +1118,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://www.freelancefounders.com",
     "twitterUrl": "",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5f4c7e60f5e14029b1e56fd5_favicon.ico.png",
+    "logoUrl": "images/logos/freelance-founders.webp",
     "locations": [
       "Global"
     ],
@@ -1136,7 +1136,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "http://www.frenchdesigners.club",
     "twitterUrl": "https://twitter.com/frenchdesigners",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5eaf77cb6af9c84328e5f5ef_39001641717_d701febf6d37c1a4c36a_132.png",
+    "logoUrl": "images/logos/french-designers-club.webp",
     "locations": [],
     "types": [
       "General"
@@ -1152,7 +1152,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://friends.figma.com/#slack",
     "twitterUrl": "",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5eb0691fef5980033f95de16_1014271126883_15d4dfb0f1e97fcffa02_230.png",
+    "logoUrl": "images/logos/friends-of-figma.webp",
     "locations": [],
     "types": [
       "Software"
@@ -1168,7 +1168,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://frontdropcommunity.slack.com/join/shared_invite/zt-181bjy37n-9CJntSqNwxuSms~MENrGSg#/shared-invite/email",
     "twitterUrl": "https://twitter.com/frontdrop",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/62d2582fa73d906ff68820e0_ePpYm5XP_200x200.jpg",
+    "logoUrl": "images/logos/frontdrop.webp",
     "locations": [
       "Global"
     ],
@@ -1186,7 +1186,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://news.hifolks.com",
     "twitterUrl": "https://twitter.com/ffffolks",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/62318922cfde78602b5ddddb_apple-touch-icon-152x152.png",
+    "logoUrl": "images/logos/good-news.webp",
     "locations": [
       "Global"
     ],
@@ -1205,7 +1205,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://growthdesigners.co",
     "twitterUrl": "https://twitter.com/GrowthDesigners",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5f98b51717c20c928ba57a85_favicon.ico.png",
+    "logoUrl": "images/logos/growth-designers.webp",
     "locations": [
       "Global"
     ],
@@ -1224,7 +1224,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://hamburgdesigners.slack.com/join/shared_invite/enQtODI5ODQxNjcyNjQ2LTMyZmUzYTIzNWJiMzc4NGY1MDY2OTlhZWUzNGYyOTU1MmM1MDI3ZTMxM2M0ODQ2ZTZkMjQ4NzJkNjg5N2ZlZTE#/shared-invite/email",
     "twitterUrl": "",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/62d25bc6cb5c4095a0876de7_81709875_469737487248383_4923721160622866432_n.jpg",
+    "logoUrl": "images/logos/hamburg-designers.webp",
     "locations": [
       "Germany"
     ],
@@ -1242,7 +1242,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://www.indiahci.org/",
     "twitterUrl": "",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/6512070bf41c615d87708985_HCIPAI_NewUpdatedLogo_01.png",
+    "logoUrl": "images/logos/hci-professionals-association-of-india.webp",
     "locations": [
       "India"
     ],
@@ -1260,7 +1260,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "http://hexagonux.com",
     "twitterUrl": "https://twitter.com/HexagonUX",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5eaf58def728bbd7443ad124_favicon.ico.png",
+    "logoUrl": "images/logos/hexagon-ux.webp",
     "locations": [],
     "types": [
       "Minority Group",
@@ -1277,7 +1277,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://www.humanitariandesigners.org",
     "twitterUrl": "https://twitter.com/DesignersNgo",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/617b927cf0b5731f79afd6e4_niGMuPA7_200x200.jpg",
+    "logoUrl": "images/logos/humanitarian-designers.webp",
     "locations": [
       "Global"
     ],
@@ -1295,7 +1295,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://www.ideatelabs.co",
     "twitterUrl": "",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/6042a42e102124f120568b6f_favicon.ico.png",
+    "logoUrl": "images/logos/ideate-labs.webp",
     "locations": [
       "Global"
     ],
@@ -1313,7 +1313,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://www.inclusivedesignjam.com",
     "twitterUrl": "",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/62d2578b34f18284918ba39b_1652893100761.jpeg",
+    "logoUrl": "images/logos/inclusive-design-jam.webp",
     "locations": [
       "Global"
     ],
@@ -1331,7 +1331,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://slofile.com/slack/indiandesigncommunity",
     "twitterUrl": "https://twitter.com/indiadesigncomm",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5eaf7ace30994e472a139741_659955964311_3ee45caa2ca8836eef33_132.png",
+    "logoUrl": "images/logos/indian-design-community.webp",
     "locations": [],
     "types": [
       "General"
@@ -1347,7 +1347,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://iterateux.com",
     "twitterUrl": "https://twitter.com/iterate_UX",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/6151499bae277f5f588518ef_h5hJNuHW_200x200.jpg",
+    "logoUrl": "images/logos/iterateux.webp",
     "locations": [
       "Global"
     ],
@@ -1365,7 +1365,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://ixda.org",
     "twitterUrl": "https://twitter.com/ixda",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5f1890abac26663ce349ea1f_5ec9a25005a9e14d4d1607cb_asn58upf8tvapmb4b5na_200x200.jpeg",
+    "logoUrl": "images/logos/ixda.webp",
     "locations": [],
     "types": [
       "UX/UI"
@@ -1381,7 +1381,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://www.meetup.com/ixdaatlanta/",
     "twitterUrl": "",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5f1890abac26663ce349ea1f_5ec9a25005a9e14d4d1607cb_asn58upf8tvapmb4b5na_200x200.jpeg",
+    "logoUrl": "images/logos/ixda-atlanta.webp",
     "locations": [],
     "types": [
       "UX/UI"
@@ -1397,7 +1397,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "http://ixdasantiago.cl",
     "twitterUrl": "https://twitter.com/ixdasantiago",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5ebc59ad2cb796062df025e1_Ei7eiR4O_200x200.jpg",
+    "logoUrl": "images/logos/ixda-santiago.webp",
     "locations": [],
     "types": [
       "UX/UI"
@@ -1413,7 +1413,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://jointfrontiers.com",
     "twitterUrl": "https://twitter.com/jointfutures",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5f318f0db6241e7163a09cf2_eu6FknYy_200x200.jpg",
+    "logoUrl": "images/logos/joint-frontiers.webp",
     "locations": [
       "Global"
     ],
@@ -1431,7 +1431,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://justuscollective.com",
     "twitterUrl": "https://twitter.com/just_us_",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5f3b2afb8a2630ad30877ac0_5f3b2ad47450d72647928771_6ueKYEPs_200x200.png",
+    "logoUrl": "images/logos/just-us-collective.webp",
     "locations": [
       "Global"
     ],
@@ -1449,7 +1449,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://www.ladesignanddev.com",
     "twitterUrl": "https://twitter.com/ladesigndev",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/60d1004730d846366f49e40d_8LjVm3q8_200x200.png",
+    "logoUrl": "images/logos/la-design-and-dev.webp",
     "locations": [
       "USA"
     ],
@@ -1467,7 +1467,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://ladiesthatux.com/",
     "twitterUrl": "https://twitter.com/LadiesthatUX",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/6511feeac160859b7199295c_logo-menu.png",
+    "logoUrl": "images/logos/ladies-that-ux.webp",
     "locations": [
       "Global"
     ],
@@ -1486,7 +1486,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://join.slack.com/t/ladiesthatuxaustin/shared_invite/zt-25cew4w86-EVc2SzAlj6ROgt0XYXpkhQ",
     "twitterUrl": "",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/65413d43376b79ff3ada00d5_1642649894015.jpg",
+    "logoUrl": "images/logos/ladies-that-ux-austin.webp",
     "locations": [
       "USA"
     ],
@@ -1504,7 +1504,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://ladiesthatuxbr.slack.com/join/shared_invite/enQtNzk5NDA5NDE1OTI1LTc1M2FjNzVmZDU3ZGE4NjYzZDAwZTIyYWFmYjYxYzZjYmNjMzk3ZjNmZmRkNzliYjM3Y2ZiYmUyMjZkMjhmNDg#/",
     "twitterUrl": "",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5f59504c814ddc3498e1e12b_CleanShot%202020-09-09%20at%2014.59.17.jpg",
+    "logoUrl": "images/logos/ladies-that-ux-em-portugues.webp",
     "locations": [
       "Portugal"
     ],
@@ -1523,7 +1523,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://www.latinxswhodesign.com",
     "twitterUrl": "https://twitter.com/latinxsdesign",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5eb2f6f4ce03ef9537365a14_gvh69n30_200x200.jpg",
+    "logoUrl": "images/logos/latinxs-who-design.webp",
     "locations": [],
     "types": [
       "General"
@@ -1539,7 +1539,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://leaders.centercentre.com/",
     "twitterUrl": "",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/6512014486331271e07dfcc0_community_loa_logo_larger.png",
+    "logoUrl": "images/logos/leaders-of-awesomeness.webp",
     "locations": [
       "Global"
     ],
@@ -1557,7 +1557,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://leadingdesign.com/join",
     "twitterUrl": "https://twitter.com/ldconf",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5eb39fb6fa63c84ffaa34cbf_HEVPHbNr_200x200.png",
+    "logoUrl": "images/logos/leading-design.webp",
     "locations": [],
     "types": [
       "Design Leaders"
@@ -1573,7 +1573,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "http://masmujeresux.cl",
     "twitterUrl": "https://twitter.com/masmujeresux",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5f1891527c822a06abd0a6a2_5ebc6cc2d465f92d8d0164ef_logo-black.png",
+    "logoUrl": "images/logos/mas-mujeres-en-ux.webp",
     "locations": [],
     "types": [
       "UX/UI"
@@ -1589,7 +1589,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://www.memorisely.com",
     "twitterUrl": "",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/6330e2d1829453c5530a29e2_293863733_756860498770607_5488797437441656387_n.jpg",
+    "logoUrl": "images/logos/memorisely.webp",
     "locations": [
       "Global"
     ],
@@ -1608,7 +1608,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://www.mindtheproduct.com/product-management-slack-community/",
     "twitterUrl": "https://twitter.com/MindtheProduct",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5ebee05a823b854feef736a7_mtp_logo.svg",
+    "logoUrl": "images/logos/mind-the-product.webp",
     "locations": [],
     "types": [
       "Product"
@@ -1624,7 +1624,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://www.mixed-methods.org",
     "twitterUrl": "https://twitter.com/mixedmthods",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5eaf91b7cd1146d2997fe9de_152060249729_6e2bd6210461251a515f_230.png",
+    "logoUrl": "images/logos/mixedmthods.webp",
     "locations": [],
     "types": [
       "User Research"
@@ -1640,7 +1640,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://mtldesign.club/",
     "twitterUrl": "",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/651c47e06582addbb051583e_327337201_562028805836058_6285204083907526195_n.png",
+    "logoUrl": "images/logos/montreal-design-club.webp",
     "locations": [
       "Canada"
     ],
@@ -1658,7 +1658,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://discord.gg/7pQHXzcjWx",
     "twitterUrl": "https://twitter.com/mtlinteractive",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5ebe165c144665e59655bb4e_cropped-favicon-192x192.png",
+    "logoUrl": "images/logos/montreal-interactive.webp",
     "locations": [],
     "types": [
       "General"
@@ -1674,7 +1674,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://nativesintech.org/",
     "twitterUrl": "https://twitter.com/nativesintech",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/6511f6b265aadee39ed0b612_fnICzLHE_400x400.jpg",
+    "logoUrl": "images/logos/natives-in-tech.webp",
     "locations": [
       "Global"
     ],
@@ -1693,7 +1693,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://nomadstalk.com/",
     "twitterUrl": "",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/649243747ccccf8dbd9dc98f_79600048_2454661518183171_6143144663235690496_n.jpg",
+    "logoUrl": "images/logos/nomads-talk.webp",
     "locations": [
       "Global"
     ],
@@ -1711,7 +1711,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://join.slack.com/t/opsididitagain/shared_invite/zt-nopwjmhi-Fpv939QKsZcNt7BkV7CZhA",
     "twitterUrl": "",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5f18921bac2666535149f1c3_5eb2f51ab9c843123edc9bee_953597728183_91502d1bbb09b05758a4_230.jpg",
+    "logoUrl": "images/logos/opsididitagain.webp",
     "locations": [],
     "types": [
       "General"
@@ -1727,7 +1727,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://orlandodesigners.info",
     "twitterUrl": "",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5eb19d72f41346c8e6f0b81e_favicon.png",
+    "logoUrl": "images/logos/orlando-designers.webp",
     "locations": [],
     "types": [
       "General"
@@ -1743,7 +1743,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://slack.overflow.io",
     "twitterUrl": "",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5eb1d9be6f301df48e318695_323622244034_236117e49b2d14fb5f95_132.png",
+    "logoUrl": "images/logos/overflow-community.webp",
     "locations": [],
     "types": [
       "Software"
@@ -1759,7 +1759,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://payitfwd.design/",
     "twitterUrl": "",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5f517af9a961823f3b400ec2_e64d96cd-ac2e-4d54-ab3e-05317acdf4aa_carw_1x1x180.png",
+    "logoUrl": "images/logos/pay-it-fwd.webp",
     "locations": [
       "Global"
     ],
@@ -1777,7 +1777,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://phase.com/community",
     "twitterUrl": "https://twitter.com/phasecommunity",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5eb1da5be6149f41e41499b1_314288580834_031c0b61305285895751_132.png",
+    "logoUrl": "images/logos/phase-community.webp",
     "locations": [],
     "types": [
       "Software"
@@ -1793,7 +1793,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://www.phillychi.acm.org",
     "twitterUrl": "https://twitter.com/PhillyCHI",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/621520d3f66e9d177418d39d_Lm1PgyHP_200x200.jpg",
+    "logoUrl": "images/logos/phillychi-2.webp",
     "locations": [
       "USA"
     ],
@@ -1811,7 +1811,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "http://www.practicalservicedesign.com/community",
     "twitterUrl": "https://twitter.com/practical_sxd",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5eb487836e4d297d17809d80_favicon.ico.jpeg",
+    "logoUrl": "images/logos/practical-service-design.webp",
     "locations": [],
     "types": [
       "Service Design"
@@ -1827,7 +1827,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://www.practical-ux.com/",
     "twitterUrl": "",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5faecf45755019eaf843a635_logo.svg",
+    "logoUrl": "images/logos/practical-ux.webp",
     "locations": [
       "Global"
     ],
@@ -1845,7 +1845,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://pro-app.slack.com/join/shared_invite/zt-czxi3ehc-w9F0lkHVI25F9rTrhtrYCw#/",
     "twitterUrl": "https://twitter.com/designwithpro",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5eaf7c7e6c54edc2bba119fc_945577718371_5d0d527f40f122e538b8_132.png",
+    "logoUrl": "images/logos/pro-learn-design.webp",
     "locations": [],
     "types": [
       "General"
@@ -1861,7 +1861,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://www.producthive.org",
     "twitterUrl": "https://twitter.com/product_hive",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5eb2482ef2d2bf6a49eb2db1_0UbF6p-s_200x200.jpg",
+    "logoUrl": "images/logos/product-hive.webp",
     "locations": [],
     "types": [
       "Product"
@@ -1877,7 +1877,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "http://www.product-tribes.com/index.html",
     "twitterUrl": "https://twitter.com/Product_Tribes",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5eb445daa5d7be6b68c74661_Yh0JOvc-_200x200.png",
+    "logoUrl": "images/logos/product-tribes.webp",
     "locations": [],
     "types": [
       "Product"
@@ -1893,7 +1893,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://qtbipoc.design",
     "twitterUrl": "https://twitter.com/qtbipocdesign",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/6512036126ff4d0047fc6e4a_circle.png",
+    "logoUrl": "images/logos/qtbipoc-design.webp",
     "locations": [
       "Global"
     ],
@@ -1912,7 +1912,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://queerdesign.club/slack/",
     "twitterUrl": "https://twitter.com/queerdesignclub",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5f189247832410820f868ddf_5eb1b3cebab329714aa63b94_touch.png",
+    "logoUrl": "images/logos/queer-design-club.webp",
     "locations": [],
     "types": [
       "General"
@@ -1928,7 +1928,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://library.relume.io/",
     "twitterUrl": "https://twitter.com/relume_io",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/635f07da60eb5aeedca6f0e5_ln6x4Nh0_400x400.jpg",
+    "logoUrl": "images/logos/relume-library.webp",
     "locations": [
       "Global"
     ],
@@ -1946,7 +1946,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://joinlearners.com",
     "twitterUrl": "https://twitter.com/JoinLearners",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/60b6afc144a803a56541c5fb_2106235495939_365b41bd0637bb5418ea_88.png",
+    "logoUrl": "images/logos/joinlearners.webp",
     "locations": [],
     "types": [
       "Product",
@@ -1963,7 +1963,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://researchops.community",
     "twitterUrl": "https://twitter.com/teamreops",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5f1891323cc8e739e8091c46_5ebee0dd7f65cc21975384f9_16l3vHKJ_200x200.jpg",
+    "logoUrl": "images/logos/researchops.webp",
     "locations": [],
     "types": [
       "User Research"
@@ -1979,7 +1979,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://sddd.org",
     "twitterUrl": "https://twitter.com/_sddd_",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5f1892a94ed5e1efa2c805c4_5eaf7c2cb41a94a8d1c06dda_454541054786_1f3409527059c62ba515_132.png",
+    "logoUrl": "images/logos/san-diego-digital-designers.webp",
     "locations": [],
     "types": [
       "General"
@@ -1995,7 +1995,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://www.seoulstartups.com",
     "twitterUrl": "",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5eaf7a9b30994e3508139569_153454699955_2c98f30490231c4c3e3f_132.jpg",
+    "logoUrl": "images/logos/seoul-startups.webp",
     "locations": [],
     "types": [
       "Technology"
@@ -2011,7 +2011,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://bento.me/servicedesignclub",
     "twitterUrl": "https://twitter.com/servicedsgnclub",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5eb33f1e8038fdf269ec19af_25b2d76ab46c264314392ce96375cccb.png",
+    "logoUrl": "images/logos/service-design-club.webp",
     "locations": [],
     "types": [
       "Service Design"
@@ -2027,7 +2027,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://www.service-design-network.org/slack",
     "twitterUrl": "https://twitter.com/SDNetwork",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5ed6c3bfcd230283fa5ea0ad_apple-touch-icon-180x180.png",
+    "logoUrl": "images/logos/service-design-community.webp",
     "locations": [],
     "types": [
       "Service Design"
@@ -2043,7 +2043,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "http://www.shecodeafrica.org",
     "twitterUrl": "https://twitter.com/SheCodeAfrica",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/6188a2e6db2b2ee67d700c0c_lRAXpgKl_200x200.jpg",
+    "logoUrl": "images/logos/she-code-africa.webp",
     "locations": [
       "Africa"
     ],
@@ -2062,7 +2062,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://www.sideprjct.com",
     "twitterUrl": "",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/625b8c67392617e2d27bab11_4eab14_f65da6ccf9274c79850b64fb0b930b35~mv2.png",
+    "logoUrl": "images/logos/side-prjct.webp",
     "locations": [
       "Global"
     ],
@@ -2080,7 +2080,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://slackcommunity.com",
     "twitterUrl": "",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5eb1d8e9bab3293edfa779fb_Slack_Mark_9BIvOE5.png",
+    "logoUrl": "images/logos/slack-platform-community.webp",
     "locations": [],
     "types": [
       "General"
@@ -2096,7 +2096,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://www.souldoodles.org",
     "twitterUrl": "",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/615148510938460d9572b029_188108827_486263502583718_1317956457039214131_n.jpg",
+    "logoUrl": "images/logos/souldoodles.webp",
     "locations": [
       "Global"
     ],
@@ -2114,7 +2114,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://spokaneux.com/",
     "twitterUrl": "",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/65d84259ae30bb0a46400795_1631001417114.jpg",
+    "logoUrl": "images/logos/spokane-ux.webp",
     "locations": [
       "USA"
     ],
@@ -2132,7 +2132,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://stark-community.slack.com/join/shared_invite/zt-17o6bdr00-GkJgOEvOOsUXihdus80AtA#/shared-invite/email",
     "twitterUrl": "https://twitter.com/getstarkco",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5f98ba4317c20c79a0a589bc_9iUwxmE__200x200.jpg",
+    "logoUrl": "images/logos/stark-community.webp",
     "locations": [
       "Global"
     ],
@@ -2150,7 +2150,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://supercharge.design/community",
     "twitterUrl": "https://twitter.com/SuperchargeDsgn",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/6512065b5c0f9212c2007524_--ajitHh_400x400.jpg",
+    "logoUrl": "images/logos/supercharge-design.webp",
     "locations": [
       "Global"
     ],
@@ -2168,7 +2168,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://sustainableuxnetwork.com/",
     "twitterUrl": "",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/651205ed997035b3a947e8a7_164044693_153535963305833_1875223117320620045_n.jpg",
+    "logoUrl": "images/logos/sustainable-ux-network.webp",
     "locations": [
       "Global"
     ],
@@ -2186,7 +2186,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://join.slack.com/t/tampabaydesigners/shared_invite/enQtNjkxOTYxMjM2ODU1LWQzNWYyZDhmZWRkNjBlYTdkZGZmMjZiZTU4NTMzMDkxYTFkNmU0ZjEzZjgyYjRkOWQ1YmEzYWIxNjIyMGU5ODU",
     "twitterUrl": "",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5f188feea4d4f9615d627e12_5efcfba12248c369d0046aca_1053468694359_99db5b10cf302c220d0b_230.png",
+    "logoUrl": "images/logos/tampa-bay-designers.webp",
     "locations": [],
     "types": [
       "General"
@@ -2202,7 +2202,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://tech404.io",
     "twitterUrl": "",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5f1890f3c080bdec2e957b24_5ec59c0b9a88c96fbd41c0e7_cropped-website-icon-180x180.png",
+    "logoUrl": "images/logos/tech404.webp",
     "locations": [],
     "types": [
       "General",
@@ -2219,7 +2219,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://www.thecacatoestheory.com",
     "twitterUrl": "https://twitter.com/CacatoesDesign",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5f1890794db54c256f85041a_5eda9e05e93ebb319e3a6fa8_5e642771ba5f93168df0cf9c_TCT%20-%20128x128%402x.png",
+    "logoUrl": "images/logos/the-cacatoes-theory.webp",
     "locations": [],
     "types": [
       "UX/UI"
@@ -2235,7 +2235,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://discord.com/invite/fRxaBsF",
     "twitterUrl": "",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/6042a4b69ee9b22b416435d2_71b7ffd6551c983488b6adeeebe28bbc.png",
+    "logoUrl": "images/logos/the-collective-studio.webp",
     "locations": [
       "Global"
     ],
@@ -2253,7 +2253,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://www.thedesignerstoolbox.com/learn-ux/slack-ux-design-community/",
     "twitterUrl": "https://twitter.com/toolboxofdesign",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/60b70ff8ab288fd63be1e154_designers_toolbox_square_logo.jpg",
+    "logoUrl": "images/logos/the-designers-toolbox.webp",
     "locations": [
       "Global"
     ],
@@ -2271,7 +2271,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://thesignof.slack.com/join/shared_invite/zt-7mokim9z-CRw8OBKRTWJ4t1JOpc19oA#/",
     "twitterUrl": "",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5ecde96894d2b63a43310cb3_502477553223_35c09568ac7053d367e3_230.png",
+    "logoUrl": "images/logos/thesignof.webp",
     "locations": [],
     "types": [
       "General"
@@ -2287,7 +2287,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://triangirls.com",
     "twitterUrl": "https://twitter.com/triangirlsocial",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/62e80892eab5577f6bf7b4da_lGcH8q82_200x200.jpg",
+    "logoUrl": "images/logos/triangirls.webp",
     "locations": [
       "UK"
     ],
@@ -2306,7 +2306,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://triangles-slack.com",
     "twitterUrl": "",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5eb43b81b21f5744abdeccbe_logo.7fa5134c.svg",
+    "logoUrl": "images/logos/triangles.webp",
     "locations": [],
     "types": [
       "General"
@@ -2322,7 +2322,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://www.uifrommars.com",
     "twitterUrl": "https://twitter.com/cbusquets",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5f1890d7e3cc9f677e9b1fb6_5ec59d75aea6415f6c4d8fef_android-icon-192x192.png",
+    "logoUrl": "images/logos/uifrommars.webp",
     "locations": [],
     "types": [
       "UX/UI"
@@ -2338,7 +2338,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://unicornclub.dev/community/",
     "twitterUrl": "https://twitter.com/unicornclubdev",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/6517616cc867409df1f5e976_ms4veInh_200x200.jpg",
+    "logoUrl": "images/logos/unicornclubdev.webp",
     "locations": [
       "Global"
     ],
@@ -2356,7 +2356,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://uniteddesigners.chat",
     "twitterUrl": "",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5eb321dce2d2b34d34113413_apple-touch-icon.png",
+    "logoUrl": "images/logos/united-designers.webp",
     "locations": [],
     "types": [
       "General"
@@ -2372,7 +2372,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://uud.io/",
     "twitterUrl": "https://twitter.com/uud_io",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/65d8416048a4864446785a93_GWWU_0Wm_400x400.jpg",
+    "logoUrl": "images/logos/uud.webp",
     "locations": [
       "Global",
       "Japan"
@@ -2391,7 +2391,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://linktr.ee/uwux",
     "twitterUrl": "https://mobile.twitter.com/uwuxwaterloo",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/60c2408fb33dacd7b9274179_JY3-eIe0_200x200.jpg",
+    "logoUrl": "images/logos/uw-ux.webp",
     "locations": [
       "USA"
     ],
@@ -2409,7 +2409,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "http://uxandproduct.com",
     "twitterUrl": "",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5f189208e2a78908bb4fc816_5eb2f7efce03ef030b3660cb_uxandproduct-white.png",
+    "logoUrl": "images/logos/ux-and-product.webp",
     "locations": [],
     "types": [
       "Product",
@@ -2444,7 +2444,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://discord.gg/797CgtHMY4",
     "twitterUrl": "",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/61514224f36d68c9fa937285_c06bbc346a3a36d69f0acb0ac154ab35.png",
+    "logoUrl": "images/logos/ux-growth.webp",
     "locations": [
       "Global"
     ],
@@ -2462,7 +2462,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "http://uxhel.com",
     "twitterUrl": "https://twitter.com/UXifyHelsinki",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5eb43c7f1f3c4043f2957dc8_XFf99jRp_200x200.jpg",
+    "logoUrl": "images/logos/ux-hel.webp",
     "locations": [],
     "types": [
       "UX/UI"
@@ -2478,7 +2478,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://uxinatx.com",
     "twitterUrl": "",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/617b9304aff5e783f233a34e_cropped-Pink-Logo-180x180.png",
+    "logoUrl": "images/logos/ux-in-atx.webp",
     "locations": [
       "USA"
     ],
@@ -2496,7 +2496,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "http://uxid.org",
     "twitterUrl": "https://twitter.com/uxindonesia",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/6003c77f7994b31bda9703f9_51866227_253829245526424_5974110062023540736_n.jpg",
+    "logoUrl": "images/logos/ux-indonesia.webp",
     "locations": [
       "APAC"
     ],
@@ -2514,7 +2514,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://uxmastery.com",
     "twitterUrl": "https://twitter.com/uxmastery",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5eaf9336b8d39c96b47b45f5_22132596128_aa61f32d920fd0fe6924_132.png",
+    "logoUrl": "images/logos/ux-mastery.webp",
     "locations": [],
     "types": [
       "UX/UI"
@@ -2530,7 +2530,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://www.linkedin.com/in/alicia2joy/",
     "twitterUrl": "https://twitter.com/ux_edtech",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/60d62fe461a8f025d341b94d_6288286-1592546010156-2e7f103de139a.jpg",
+    "logoUrl": "images/logos/ux-of-edtech.webp",
     "locations": [
       "Global"
     ],
@@ -2548,7 +2548,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://www.uxresearchandstrategy.com",
     "twitterUrl": "https://twitter.com/ux_and",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/62d25aa8459b10c903ac802a_QEi9yvRa_200x200.jpg",
+    "logoUrl": "images/logos/ux-research-and-strategy.webp",
     "locations": [
       "Global"
     ],
@@ -2566,7 +2566,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://www.uxseattle.org",
     "twitterUrl": "",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5f18911ac080bd672e957b30_5ec59ab4a27548b0fec9a90d_ux_seattle_blue.png",
+    "logoUrl": "images/logos/ux-seattle.webp",
     "locations": [],
     "types": [
       "UX/UI"
@@ -2582,7 +2582,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "http://ux.guide",
     "twitterUrl": "https://twitter.com/ux_guide",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5eaf7610cd114601b87f3839_20521642832_fe19c80b307beb3ddeeb_132.png",
+    "logoUrl": "images/logos/ux-guide.webp",
     "locations": [],
     "types": [
       "UX/UI"
@@ -2598,7 +2598,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://uxcel-community.slack.com/join/shared_invite/zt-nmrhi0pf-btWAt7NkZlRs2ghX_cUxDw#/shared-invite/email",
     "twitterUrl": "https://twitter.com/uxcelapp",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/615142ae481e2ce9098cc43b_SPregDW__200x200.jpg",
+    "logoUrl": "images/logos/uxcel-community.webp",
     "locations": [
       "Global"
     ],
@@ -2616,7 +2616,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://uxpaboston.org/get-involved/become-a-member/",
     "twitterUrl": "https://twitter.com/uxpaboston",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5eb3a1298038fd3c91ee5353_gyIEm9xD_200x200.jpeg",
+    "logoUrl": "images/logos/uxpa-boston.webp",
     "locations": [],
     "types": [
       "UX/UI"
@@ -2632,7 +2632,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://vancouverdesigncommunity.webflow.io/",
     "twitterUrl": "",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/6081b413174f4d39ef1c31ef_1456959130660_e667c7eed827a11f548d_230.jpg",
+    "logoUrl": "images/logos/vancouver-design-community.webp",
     "locations": [
       "Canada"
     ],
@@ -2668,7 +2668,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://discord.com/invite/UKQ4w6n",
     "twitterUrl": "",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5ed44651412d2b5bf5b4f1a8_394f0dcaf01cdc8184f3dc7eae73bc4a.png",
+    "logoUrl": "images/logos/webflow-community.webp",
     "locations": [],
     "types": [
       "Software"
@@ -2684,7 +2684,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://wherearetheblackdesigners.com",
     "twitterUrl": "https://twitter.com/watbdsgners",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5f4ed2ec3f2bb69c493b8494_Ak6gupbp_200x200.jpg",
+    "logoUrl": "images/logos/where-are-the-black-designers.webp",
     "locations": [
       "Global"
     ],
@@ -2722,7 +2722,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://witchat.github.io",
     "twitterUrl": "",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5f1891db6a728a79700a8b76_5eb321fcf7d1cc33226de572_apple-touch-icon.png",
+    "logoUrl": "images/logos/women-in-technology.webp",
     "locations": [],
     "types": [
       "Technology"
@@ -2738,7 +2738,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://join.slack.com/t/xr-designworkspace/shared_invite/zt-gikiqc4n-PfvaxDT5h06r2S6ntrjWfA",
     "twitterUrl": "",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5f2b95684c1f4365ae0fe0e3_5eb071015b8c1cdd093432a6_1104027870804_c5984f33d4e1c309878c_230.png",
+    "logoUrl": "images/logos/xr-design.webp",
     "locations": [],
     "types": [
       "Technology"
@@ -2754,7 +2754,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://www.zapd.co.za",
     "twitterUrl": "",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/5f400b41e94cdf2433219803_favicon.ico-2.png",
+    "logoUrl": "images/logos/zaproductdesign.webp",
     "locations": [
       "Africa"
     ],
@@ -2772,7 +2772,7 @@ const COMMUNITIES_DATA = [
     "websiteUrl": "https://zheroes-signup.webflow.io/",
     "twitterUrl": "",
     "instagramUrl": "",
-    "logoUrl": "https://cdn.prod.website-files.com/5eaf5840f728bb2eb83acecf/63191b111627807179c69260_zheroes.png",
+    "logoUrl": "images/logos/zheroes.webp",
     "locations": [
       "Global"
     ],

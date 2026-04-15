@@ -1,0 +1,24 @@
+{
+  "name": "designerslack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "process-logos": "node scripts/process-logos.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucky13820/designerslack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/lucky13820/designerslack/issues"
+  },
+  "homepage": "https://github.com/lucky13820/designerslack#readme",
+  "devDependencies": {
+    "sharp": "^0.33.5"
+  }
+}
